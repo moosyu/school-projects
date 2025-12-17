@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://bwskoc4peskxw"]
+
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_ck4np"]
+[ext_resource type="Resource" uid="uid://bil5ghriknie2" path="res://resources/fish/clownfish.tres" id="1_qm0js"]
+
+[resource]
+script = ExtResource("1_ck4np")
+sender = "Anna"
+intro = "Looking for aquarium fish."
+details = "I'm starting up an aquarium but it looks too bland right now, too many browns and blues. If you could get me a big vibrant FISH_NAME I think it could really spice things up around here. Get me a REQUIRED_SIZE gram one at least."
+requirement = ExtResource("1_qm0js")
+required_size = 155
+required_alive = false
+level_requirement = 4
+has_requirements = true
+money_reward = 1100
+exp_reward = 450
+repeatable = false

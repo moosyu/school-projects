@@ -1,0 +1,45 @@
+[gd_scene load_steps=5 format=3 uid="uid://ckw5ehuh1ye22"]
+
+[ext_resource type="Texture2D" uid="uid://crk2uxok5w5t8" path="res://assets/sprites/fish-icons/salmon.png" id="1_77k64"]
+[ext_resource type="Texture2D" uid="uid://w2u66heuk6u5" path="res://assets/sprites/icons/common.png" id="2_vwar5"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_knhsg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m4y73"]
+bg_color = Color(0.0705882, 0.0705882, 0.0705882, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[node name="TutorialCatalogContainer" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_knhsg")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/h_separation = 100
+theme_override_constants/v_separation = 100
+
+[node name="PanelContainer" type="PanelContainer" parent="GridContainer"]
+clip_children = 2
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_m4y73")
+
+[node name="FishTexture" type="TextureRect" parent="GridContainer/PanelContainer"]
+layout_mode = 2
+texture = ExtResource("1_77k64")
+expand_mode = 3
+
+[node name="StarTexture" type="TextureRect" parent="GridContainer/PanelContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+texture = ExtResource("2_vwar5")
+expand_mode = 3

@@ -1,0 +1,10 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://cs5xhrmbmi3n6"]
+
+[ext_resource type="FontFile" uid="uid://d1lpjp4ojwfiy" path="res://assets/fonts/bm-kkubulim.regular.otf" id="1_culsa"]
+
+[resource]
+font = ExtResource("1_culsa")
+font_size = 32
+font_color = Color(0.243137, 0.819608, 0.454902, 1)
+outline_size = 8
+outline_color = Color(0.0784314, 0.121569, 0.239216, 1)

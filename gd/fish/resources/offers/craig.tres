@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=2 format=3 uid="uid://bgnoef3cx6qyg"]
+
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_br3mm"]
+
+[resource]
+script = ExtResource("1_br3mm")
+sender = "Craig"
+intro = "Dementia..."
+details = "I'm suffering from a minor case of dementia at the moment and I heard FISH_NAME will help cure it. Would you mind getting one?"
+required_size = 0
+required_alive = false
+level_requirement = 0
+has_requirements = true
+money_reward = 200
+exp_reward = 50
+repeatable = true

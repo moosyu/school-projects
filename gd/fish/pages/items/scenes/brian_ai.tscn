@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://dcs5r2xguil3k"]
+
+[ext_resource type="Script" path="res://pages/items/scripts/penelope_ai.gd" id="1_rcpek"]
+[ext_resource type="StyleBox" uid="uid://ck3u5ite6p5lf" path="res://styles/ai_unchanged.tres" id="2_3pbye"]
+[ext_resource type="Texture2D" uid="uid://bgtx3suexy8q3" path="res://assets/sprites/icons/ai_icon_3.png" id="3_wvyxt"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fri3c"]
+
+[node name="BrianAI" type="PanelContainer"]
+theme_override_styles/panel = SubResource("StyleBoxEmpty_fri3c")
+script = ExtResource("1_rcpek")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="ProfileContainer" type="PanelContainer" parent="HBoxContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/panel = ExtResource("2_3pbye")
+
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer/ProfileContainer"]
+layout_mode = 2
+texture = ExtResource("3_wvyxt")
+expand_mode = 3

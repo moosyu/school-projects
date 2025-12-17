@@ -1,0 +1,277 @@
+[gd_scene load_steps=21 format=3 uid="uid://b4eoshryo8kgg"]
+
+[ext_resource type="Script" path="res://pages/dialogue/scripts/failed_sequence.gd" id="1_ouf1b"]
+[ext_resource type="FontFile" uid="uid://bg1uiqnkiuxrm" path="res://assets/fonts/friendlyscribbles.ttf" id="2_8mbua"]
+[ext_resource type="FontFile" uid="uid://d1lpjp4ojwfiy" path="res://assets/fonts/bm-kkubulim.regular.otf" id="3_brqyn"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7v73d"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ekrsd"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dal3g"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ps42n"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_677gg"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jkkcj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qwio6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yyp6w"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_1x66i"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mf1x8"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8feyg"]
+
+[sub_resource type="Animation" id="Animation_631sw"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("VBoxContainer/NextButton:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("VBoxContainer/NextButton:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("VBoxContainer/NextButton:mouse_default_cursor_shape")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("VBoxContainer:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_55may"]
+resource_name = "button_active"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("VBoxContainer/NextButton:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("VBoxContainer/NextButton:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("VBoxContainer/NextButton:mouse_default_cursor_shape")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [2]
+}
+
+[sub_resource type="Animation" id="Animation_p0s1e"]
+resource_name = "button_inactive"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("VBoxContainer/NextButton:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("VBoxContainer/NextButton:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("VBoxContainer/NextButton:mouse_default_cursor_shape")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_g000t"]
+resource_name = "end_intro"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("VBoxContainer:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_66due"]
+resource_name = "start_intro"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("VBoxContainer:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_1yupw"]
+_data = {
+"RESET": SubResource("Animation_631sw"),
+"button_active": SubResource("Animation_55may"),
+"button_inactive": SubResource("Animation_p0s1e"),
+"end_intro": SubResource("Animation_g000t"),
+"start_intro": SubResource("Animation_66due")
+}
+
+[node name="FailedSequence" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ouf1b")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -350.0
+offset_top = -63.0
+offset_right = 350.0
+offset_bottom = 63.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer"]
+custom_minimum_size = Vector2(700, 0)
+layout_mode = 2
+theme_override_colors/default_color = Color(0.188421, 0.513324, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.029024, 0, 0.908176, 1)
+theme_override_constants/shadow_offset_y = 1
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_outline_size = 2
+theme_override_fonts/normal_font = ExtResource("2_8mbua")
+theme_override_font_sizes/normal_font_size = 62
+bbcode_enabled = true
+text = "Yikes, that was a real shame. I was rooting for you."
+fit_content = true
+
+[node name="NextButton" type="Button" parent="VBoxContainer"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_brqyn")
+theme_override_font_sizes/font_size = 48
+theme_override_styles/focus = SubResource("StyleBoxEmpty_7v73d")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_ekrsd")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_dal3g")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_ps42n")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_677gg")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_jkkcj")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_qwio6")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_yyp6w")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_1x66i")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_mf1x8")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_8feyg")
+disabled = true
+text = "..."
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_1yupw")
+}
+
+[node name="ReadingTimer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="pressed" from="VBoxContainer/NextButton" to="." method="_on_next_button_pressed"]
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]
+[connection signal="timeout" from="ReadingTimer" to="." method="_on_reading_timer_timeout"]

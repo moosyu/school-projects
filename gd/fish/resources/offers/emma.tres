@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://bi86uwph87gsd"]
+
+[ext_resource type="Resource" uid="uid://c5iql8d0k0a2j" path="res://resources/fish/pike.tres" id="1_4jrox"]
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_t5cmv"]
+
+[resource]
+script = ExtResource("1_t5cmv")
+sender = "Emma"
+intro = "Trying to win the fish contest"
+details = "Hi!! I'm hoping to get the first place prize in the big townwide pet fish contest but I don't have a fish. I'm never going to be famous at this rate so I'd like you to find me a very handsome FISH_NAME, I'd like him to be at least REQUIRED_SIZEkgs too. Thanks!!"
+requirement = ExtResource("1_4jrox")
+required_size = 9
+required_alive = false
+level_requirement = 2
+has_requirements = true
+money_reward = 380
+exp_reward = 80
+repeatable = false

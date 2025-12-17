@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://cb45ab741q1rh"]
+
+[ext_resource type="Texture2D" uid="uid://b0r2ta2c1ed4k" path="res://assets/sprites/icons/question.png" id="1_4bhc3"]
+[ext_resource type="Script" path="res://pages/catalog/scripts/catalog_item.gd" id="1_ypwhl"]
+[ext_resource type="Texture2D" uid="uid://w2u66heuk6u5" path="res://assets/sprites/icons/common.png" id="2_mrsyi"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rpup5"]
+bg_color = Color(0.0687983, 0.0687983, 0.0687982, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[node name="CatalogItem" type="PanelContainer"]
+clip_children = 2
+custom_minimum_size = Vector2(200, 200)
+offset_right = 200.0
+offset_bottom = 200.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_rpup5")
+script = ExtResource("1_ypwhl")
+
+[node name="FishTexture" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("1_4bhc3")
+expand_mode = 3
+
+[node name="StarTexture" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+texture = ExtResource("2_mrsyi")
+expand_mode = 3

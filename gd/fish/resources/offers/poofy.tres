@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://cn2xsnb3gvkn2"]
+
+[ext_resource type="Resource" uid="uid://ibimwtieh1b4" path="res://resources/fish/mola_mola.tres" id="1_eh6vv"]
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="2_jgr6u"]
+
+[resource]
+script = ExtResource("2_jgr6u")
+sender = "Poofy"
+intro = "I'm looking for a sea beast!"
+details = "Hi, it's me, Gorilla E Poofy. To prove myself as the strongest I've realised I must face a strong beast of the seas so I need you to get me a FISH_NAME that weighs at least REQUIRED_SIZEkgs and is REQUIRED_ALIVE."
+requirement = ExtResource("1_eh6vv")
+required_size = 1000
+required_alive = true
+level_requirement = 4
+has_requirements = true
+money_reward = 2000
+exp_reward = 300
+repeatable = false

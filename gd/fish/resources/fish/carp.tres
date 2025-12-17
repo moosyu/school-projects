@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemBase" load_steps=3 format=3 uid="uid://f1rtq6e2a1l7"]
+
+[ext_resource type="Script" path="res://pages/items/scripts/item_base.gd" id="1_rwwe0"]
+[ext_resource type="Texture2D" uid="uid://clwoln42wiebd" path="res://assets/sprites/fish-icons/carp.png" id="1_xxiyg"]
+
+[resource]
+script = ExtResource("1_rwwe0")
+name = "Carp"
+species = "Eurasian carp"
+fish_icon = ExtResource("1_xxiyg")
+base_price = 10
+fact = "Wild carp can live up to 40 years in the wild and the oldest carp was 226 years old."
+price_multiplier = 1
+level_requirement = 0
+always_spawnable = true
+minimum_weight = 2
+maximum_weight = 20
+weight_measurement_shorthand = "KG"
+weight_measurement_longhand = "kilogram"

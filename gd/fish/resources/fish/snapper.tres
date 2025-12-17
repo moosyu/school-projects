@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemBase" load_steps=3 format=3 uid="uid://eat0dvkuofye"]
+
+[ext_resource type="Texture2D" uid="uid://blew508l0sd3b" path="res://assets/sprites/fish-icons/snapper.png" id="1_8j0un"]
+[ext_resource type="Script" path="res://pages/items/scripts/item_base.gd" id="1_c6klc"]
+
+[resource]
+script = ExtResource("1_c6klc")
+name = "Snapper"
+species = "Australasian snapper"
+fish_icon = ExtResource("1_8j0un")
+base_price = 55
+fact = "Snappers have their name because of the audible snap their powerful jaws make when biting down!"
+price_multiplier = 1
+level_requirement = 0
+always_spawnable = true
+minimum_weight = 2
+maximum_weight = 20
+weight_measurement_shorthand = "KG"
+weight_measurement_longhand = "kilogram"

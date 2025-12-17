@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://cyput6ggpmjwk"]
+
+[ext_resource type="Resource" uid="uid://dtfo84duahdln" path="res://resources/fish/dori.tres" id="1_hw5di"]
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="2_ispim"]
+
+[resource]
+script = ExtResource("2_ispim")
+sender = "Nemow"
+intro = "Help me find my friend!"
+details = "Me and my dad were going on a journey with my friend FISH_NAME but she got lost. She has a memory problem so I'm worried I won't be able to find her again. Please help! I'll give you everything I have."
+requirement = ExtResource("1_hw5di")
+required_quality = 0
+required_size = 0
+required_alive = false
+level_requirement = 3
+has_requirements = true
+money_reward = 2000
+exp_reward = 150
+repeatable = false

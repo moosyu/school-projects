@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://boyhd3vtedbfk"]
+
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_620ih"]
+[ext_resource type="Resource" uid="uid://eat0dvkuofye" path="res://resources/fish/snapper.tres" id="1_jttrn"]
+
+[resource]
+script = ExtResource("1_620ih")
+sender = "Blake"
+intro = "I've had a bad fishing week..."
+details = "My fishing week has been terrible and I don't want to be embarrassed if I come home empty handed. Can you please give me a FISH_NAME. Make sure it's huge so I can overcompensate, at least REQUIRED_SIZEkgs."
+requirement = ExtResource("1_jttrn")
+required_size = 9
+required_alive = false
+level_requirement = 2
+has_requirements = true
+money_reward = 350
+exp_reward = 90
+repeatable = false

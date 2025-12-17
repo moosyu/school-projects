@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemBase" load_steps=3 format=3 uid="uid://1er15yu4l7bj"]
+
+[ext_resource type="Texture2D" uid="uid://crk2uxok5w5t8" path="res://assets/sprites/fish-icons/salmon.png" id="1_0e66s"]
+[ext_resource type="Script" path="res://pages/items/scripts/item_base.gd" id="1_84wub"]
+
+[resource]
+script = ExtResource("1_84wub")
+name = "Salmon"
+species = "Sockeye salmon"
+fish_icon = ExtResource("1_0e66s")
+base_price = 60
+fact = "Salmon can actually jump up to two metres, only 0.4m away from the Olympic world record!"
+price_multiplier = 1
+level_requirement = 0
+always_spawnable = true
+minimum_weight = 2
+maximum_weight = 7
+weight_measurement_shorthand = "KG"
+weight_measurement_longhand = "kilogram"

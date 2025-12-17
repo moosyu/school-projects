@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemBase" load_steps=3 format=3 uid="uid://b2cgum1mgym1p"]
+
+[ext_resource type="Texture2D" uid="uid://4aa2p5bh6yoy" path="res://assets/sprites/fish-icons/trout.png" id="1_66aaj"]
+[ext_resource type="Script" path="res://pages/items/scripts/item_base.gd" id="1_ifd3i"]
+
+[resource]
+script = ExtResource("1_ifd3i")
+name = "Trout"
+species = "Lake Trout"
+fish_icon = ExtResource("1_66aaj")
+base_price = 50
+fact = "Trouts can rapidly change colour depending on their surroundings or their mood."
+price_multiplier = 1
+level_requirement = 0
+always_spawnable = true
+minimum_weight = 2
+maximum_weight = 20
+weight_measurement_shorthand = "KG"
+weight_measurement_longhand = "kilogram"

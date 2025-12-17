@@ -1,0 +1,421 @@
+[gd_scene load_steps=25 format=3 uid="uid://blpfosbls11rj"]
+
+[ext_resource type="Script" path="res://pages/notifications/notification.gd" id="1_pgyud"]
+[ext_resource type="Texture2D" uid="uid://c06kio7hq5mte" path="res://assets/sprites/icons/star.png" id="1_vpoue"]
+[ext_resource type="FontFile" uid="uid://bg1uiqnkiuxrm" path="res://assets/fonts/friendlyscribbles.ttf" id="2_pcqkk"]
+[ext_resource type="FontFile" uid="uid://d1lpjp4ojwfiy" path="res://assets/fonts/bm-kkubulim.regular.otf" id="3_y1jym"]
+[ext_resource type="StyleBox" uid="uid://xt5v685r88rp" path="res://styles/item_button.tres" id="4_c4xjl"]
+[ext_resource type="Texture2D" uid="uid://bva4p1em6klyb" path="res://assets/sprites/sprites/confetti.png" id="6_cvojv"]
+[ext_resource type="AudioStream" uid="uid://mfnlotgqlw2b" path="res://assets/sound/party_blower.wav" id="7_1eecp"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dt85m"]
+
+[sub_resource type="Animation" id="Animation_bjnt7"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("InfoLabel:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1.2, 1.2)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("FinishButton:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("InfoLabel:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("TextureRect:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("GPUParticles2D:modulate")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("TextureRect:scale")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("FinishButton:scale")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1e-05, 1e-05)]
+}
+
+[sub_resource type="Animation" id="Animation_4o6ds"]
+resource_name = "appear"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("InfoLabel:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1e-05, 1e-05), Vector2(0.8, 0.8)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("FinishButton:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1e-05, 1e-05), Vector2(1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_6cq4t"]
+resource_name = "disappear"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("FinishButton:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("InfoLabel:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("TextureRect:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("GPUParticles2D:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_mmuqx"]
+resource_name = "movement"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 6.28319]
+}
+
+[sub_resource type="Animation" id="Animation_yarcg"]
+resource_name = "movement_title"
+length = 0.6
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("InfoLabel:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0.8, 0.8), Vector2(1.2, 1.2)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_jsotb"]
+_data = {
+"RESET": SubResource("Animation_bjnt7"),
+"appear": SubResource("Animation_4o6ds"),
+"disappear": SubResource("Animation_6cq4t"),
+"movement": SubResource("Animation_mmuqx"),
+"movement_title": SubResource("Animation_yarcg")
+}
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_k7sjn"]
+particles_animation = true
+particles_anim_h_frames = 2
+particles_anim_v_frames = 1
+particles_anim_loop = true
+
+[sub_resource type="Curve" id="Curve_03fr0"]
+_data = [Vector2(0.0266667, 1), 0.0, 0.0, 0, 0, Vector2(0.773333, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.384615), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_noi18"]
+curve = SubResource("Curve_03fr0")
+
+[sub_resource type="Gradient" id="Gradient_a2ta4"]
+offsets = PackedFloat32Array(0.00819672, 0.319672, 0.344262, 0.680328, 0.688525, 1)
+colors = PackedColorArray(0, 0.278431, 0.701961, 1, 0, 0.278431, 0.701961, 1, 0.223529, 0.560784, 0.890196, 1, 0.223529, 0.560784, 0.890196, 1, 0.666667, 0.882353, 0.996078, 1, 0.666667, 0.882353, 0.996078, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_13q6i"]
+gradient = SubResource("Gradient_a2ta4")
+
+[sub_resource type="Curve" id="Curve_vut88"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.243056, 0.736264), 0.0, 0.0, 0, 0, Vector2(0.6875, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.747253), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="CurveTexture_4q6me"]
+curve = SubResource("Curve_vut88")
+
+[sub_resource type="Curve" id="Curve_oi1ro"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.753333, 1), 0.0, -0.0422652, 1, 0, Vector2(1, 0.648352), -4.61539, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_sioyy"]
+curve = SubResource("Curve_oi1ro")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_2v62d"]
+particle_flag_disable_z = true
+emission_shape_scale = Vector3(960, 1, 1)
+emission_shape = 3
+emission_box_extents = Vector3(1, 1, 1)
+direction = Vector3(0, -1, 0)
+initial_velocity_min = -300.0
+initial_velocity_max = -250.0
+angular_velocity_min = -180.0
+angular_velocity_max = 180.0
+gravity = Vector3(0, 350, 0)
+linear_accel_min = 10.0
+linear_accel_max = 30.0
+damping_min = 74.0
+damping_max = 78.0
+damping_curve = SubResource("CurveTexture_4q6me")
+scale_max = 1.25
+scale_curve = SubResource("CurveTexture_sioyy")
+color_initial_ramp = SubResource("GradientTexture1D_13q6i")
+alpha_curve = SubResource("CurveTexture_noi18")
+hue_variation_min = -0.02
+hue_variation_max = 0.02
+anim_speed_min = 2.0
+anim_speed_max = 5.0
+anim_offset_max = 1.0
+
+[node name="Notification" type="Control"]
+z_index = 2
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_pgyud")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.313726)
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -400.0
+offset_top = -400.0
+offset_right = 400.0
+offset_bottom = 400.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(400, 400)
+texture = ExtResource("1_vpoue")
+
+[node name="InfoLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -740.051
+offset_top = -40.4885
+offset_right = 769.949
+offset_bottom = 56.5115
+grow_horizontal = 2
+grow_vertical = 2
+rotation = -0.0872665
+scale = Vector2(1.2, 1.2)
+pivot_offset = Vector2(749.491, 43.6171)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = 20
+theme_override_fonts/font = ExtResource("2_pcqkk")
+theme_override_font_sizes/font_size = 96
+text = "YOU UNLOCKED BLUE SALMON!!"
+horizontal_alignment = 1
+
+[node name="FinishButton" type="Button" parent="."]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 0
+offset_left = 811.0
+offset_top = 752.0
+offset_right = 1111.0
+offset_bottom = 837.0
+scale = Vector2(1e-05, 1e-05)
+pivot_offset = Vector2(151, 50)
+mouse_default_cursor_shape = 2
+theme_override_fonts/font = ExtResource("3_y1jym")
+theme_override_font_sizes/font_size = 64
+theme_override_styles/focus = SubResource("StyleBoxEmpty_dt85m")
+theme_override_styles/disabled_mirrored = ExtResource("4_c4xjl")
+theme_override_styles/disabled = ExtResource("4_c4xjl")
+theme_override_styles/hover_pressed_mirrored = ExtResource("4_c4xjl")
+theme_override_styles/hover_pressed = ExtResource("4_c4xjl")
+theme_override_styles/hover_mirrored = ExtResource("4_c4xjl")
+theme_override_styles/hover = ExtResource("4_c4xjl")
+theme_override_styles/pressed_mirrored = ExtResource("4_c4xjl")
+theme_override_styles/pressed = ExtResource("4_c4xjl")
+theme_override_styles/normal_mirrored = ExtResource("4_c4xjl")
+theme_override_styles/normal = ExtResource("4_c4xjl")
+text = "alright..."
+
+[node name="SpinAnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_jsotb")
+}
+
+[node name="TitleScaleAnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_jsotb")
+}
+
+[node name="FadeAnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_jsotb")
+}
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+material = SubResource("CanvasItemMaterial_k7sjn")
+position = Vector2(960, -56)
+emitting = false
+amount = 200
+process_material = SubResource("ParticleProcessMaterial_2v62d")
+texture = ExtResource("6_cvojv")
+lifetime = 6.0
+one_shot = true
+explosiveness = 0.97
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_1eecp")
+volume_db = -54.39
+
+[connection signal="pressed" from="FinishButton" to="." method="_on_finish_button_pressed"]
+[connection signal="animation_finished" from="FadeAnimationPlayer" to="." method="_on_fade_animation_player_animation_finished"]

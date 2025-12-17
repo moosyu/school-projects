@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="HighlightUnderpricedUpgrade" load_steps=2 format=3 uid="uid://dhv1llmyy6av0"]
+
+[ext_resource type="Script" path="res://pages/upgrades/scripts/upgrades/unpriced_upgrade_script.gd" id="1_yf6hb"]
+
+[resource]
+script = ExtResource("1_yf6hb")
+price = 850
+upgrade_name = "Highlight underpriced fish"
+max_level = 1
+level = 0

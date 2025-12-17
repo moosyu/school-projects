@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://vk7vw2nvghk0"]
+
+[ext_resource type="Resource" uid="uid://b2cgum1mgym1p" path="res://resources/fish/trout.tres" id="1_2qlw2"]
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_pcosb"]
+
+[resource]
+script = ExtResource("1_pcosb")
+sender = "Christopher"
+intro = "Ocean Planet™"
+details = "I'm starting a new business called Ocean Planet(™). Unfortunately to achieve the poor living conditions for my animals that I crave I'll first need some animals. It'd be great if you could get me a beefy FISH_NAME. Make sure it's REQUIRED_SIZEkgs at a minimum, REQUIRED_ALIVE too, can't have myself looking bad, can I?"
+requirement = ExtResource("1_2qlw2")
+required_size = 15
+required_alive = true
+level_requirement = 4
+has_requirements = true
+money_reward = 1200
+exp_reward = 250
+repeatable = false

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemBase" load_steps=3 format=3 uid="uid://bil5ghriknie2"]
+
+[ext_resource type="Texture2D" uid="uid://b78t76a7i7l88" path="res://assets/sprites/fish-icons/clownfish.png" id="1_yw2jh"]
+[ext_resource type="Script" path="res://pages/items/scripts/item_base.gd" id="2_ah2ym"]
+
+[resource]
+script = ExtResource("2_ah2ym")
+name = "Clownfish"
+species = "Common clownfish"
+fish_icon = ExtResource("1_yw2jh")
+base_price = 80
+fact = "Clownfish are all born males and can become females, however they cannot change back afterwards."
+price_multiplier = 1
+level_requirement = 3
+always_spawnable = true
+minimum_weight = 70
+maximum_weight = 200
+weight_measurement_shorthand = "G"
+weight_measurement_longhand = "gram"

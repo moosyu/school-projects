@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemBase" load_steps=3 format=3 uid="uid://c6rpuy3q8qj47"]
+
+[ext_resource type="Script" path="res://pages/items/scripts/item_base.gd" id="1_315ee"]
+[ext_resource type="Texture2D" uid="uid://dfnr6ntig0gof" path="res://assets/sprites/fish-icons/catfish.png" id="1_d8nnd"]
+
+[resource]
+script = ExtResource("1_315ee")
+name = "Catfish"
+species = "Redtail catfish"
+fish_icon = ExtResource("1_d8nnd")
+base_price = 20
+fact = "Catfish don't just swim, they can walk on land, climb walls and even breath air."
+price_multiplier = 1
+level_requirement = 0
+always_spawnable = true
+minimum_weight = 44
+maximum_weight = 80
+weight_measurement_shorthand = "KG"
+weight_measurement_longhand = "kilogram"

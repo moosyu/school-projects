@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="InboxUpgrade" load_steps=2 format=3 uid="uid://cssbwtbj53psw"]
+
+[ext_resource type="Script" path="res://pages/upgrades/scripts/upgrades/inbox_upgrade_script.gd" id="1_bnrhx"]
+
+[resource]
+script = ExtResource("1_bnrhx")
+price = 250
+upgrade_name = "Offer selection upgrade"
+max_level = 3
+level = 0

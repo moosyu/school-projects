@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemBase" load_steps=3 format=3 uid="uid://dem45nucq2a3t"]
+
+[ext_resource type="Texture2D" uid="uid://dih6oe4cm563x" path="res://assets/sprites/fish-icons/tuna.png" id="1_b73jy"]
+[ext_resource type="Script" path="res://pages/items/scripts/item_base.gd" id="1_mlymi"]
+
+[resource]
+script = ExtResource("1_mlymi")
+name = "Tuna"
+species = "Pacific bluefin tuna"
+fish_icon = ExtResource("1_b73jy")
+base_price = 80
+fact = "The atlantic bluefin tuna is the largest tuna species. It can grow up to 4m long and weight up to 800kgs!"
+price_multiplier = 1
+level_requirement = 0
+always_spawnable = true
+minimum_weight = 100
+maximum_weight = 540
+weight_measurement_shorthand = "KG"
+weight_measurement_longhand = "kilogram"

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemBase" load_steps=3 format=3 uid="uid://dtfo84duahdln"]
+
+[ext_resource type="Texture2D" uid="uid://bsu67vnctuenw" path="res://assets/sprites/fish-icons/blue_tang.png" id="1_e3530"]
+[ext_resource type="Script" path="res://pages/items/scripts/item_base.gd" id="2_hgh2b"]
+
+[resource]
+script = ExtResource("2_hgh2b")
+name = "Dori"
+species = "Regal blue tang"
+fish_icon = ExtResource("1_e3530")
+base_price = 750
+fact = "Blue tangs are capable of adjusting the intensity of their hue from light blue to deep purple."
+price_multiplier = 1
+level_requirement = 0
+always_spawnable = false
+minimum_weight = 600
+maximum_weight = 700
+weight_measurement_shorthand = "G"
+weight_measurement_longhand = "gram"

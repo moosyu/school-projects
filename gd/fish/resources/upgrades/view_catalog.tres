@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ViewCatalogUpgrade" load_steps=2 format=3 uid="uid://hr6n8uouhvje"]
+
+[ext_resource type="Script" path="res://pages/upgrades/scripts/upgrades/view_catalog_script.gd" id="1_yqkex"]
+
+[resource]
+script = ExtResource("1_yqkex")
+price = 2500
+upgrade_name = "View catalog"
+max_level = 1
+level = 0

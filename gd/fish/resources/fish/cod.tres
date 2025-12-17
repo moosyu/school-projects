@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemBase" load_steps=3 format=3 uid="uid://cupkq1gi01e84"]
+
+[ext_resource type="Texture2D" uid="uid://bd5ab45nlotof" path="res://assets/sprites/fish-icons/cod.png" id="1_k0ggx"]
+[ext_resource type="Script" path="res://pages/items/scripts/item_base.gd" id="1_qfs2w"]
+
+[resource]
+script = ExtResource("1_qfs2w")
+name = "Cod"
+species = "Atlantic cod"
+fish_icon = ExtResource("1_k0ggx")
+base_price = 40
+fact = "Cods can travel up to 320km to reach their breeding grounds during mating season!"
+price_multiplier = 1
+level_requirement = 2
+always_spawnable = true
+minimum_weight = 5
+maximum_weight = 18
+weight_measurement_shorthand = "KG"
+weight_measurement_longhand = "kilogram"

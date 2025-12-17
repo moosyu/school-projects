@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://b4miespeeeeyi"]
+
+[ext_resource type="Resource" uid="uid://dem45nucq2a3t" path="res://resources/fish/tuna.tres" id="1_dueh3"]
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="2_f6wwg"]
+
+[resource]
+script = ExtResource("2_f6wwg")
+sender = "Gunner"
+intro = "Looking to invest!"
+details = "My parents both sadly died in a freak sword fighting accident leading to me inheriting 50 million dollars. I'm looking to invest some of this money in a high quality fish. If you can track me down a [color=#42a5c4]500[/color]kg FISH_NAME that'd be great."
+requirement = ExtResource("1_dueh3")
+required_size = 0
+required_alive = false
+level_requirement = 3
+has_requirements = true
+money_reward = 1000
+exp_reward = 200
+repeatable = false

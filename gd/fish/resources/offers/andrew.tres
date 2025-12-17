@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://dg3uij1erfe64"]
+
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_v4p77"]
+[ext_resource type="Resource" uid="uid://b53faeq4agbwi" path="res://resources/fish/blue_salmon.tres" id="1_vdw2u"]
+
+[resource]
+script = ExtResource("1_v4p77")
+sender = "Andrew"
+intro = "I know what beasts there are at the bottom of the sea"
+details = "I have been a FISH_NAME
+I have been a dog, a stag, a roebuck on the mountain
+A stock, a spade, an axe in the hand
+A stallion, a bull, a buck
+I was reaped and placed in an oven
+I fell to the ground when I was being roasted
+And a hen swallowed me
+For nine nights was I in her crop
+I have been dead, I have been alive"
+requirement = ExtResource("1_vdw2u")
+required_size = 0
+required_alive = false
+level_requirement = 4
+has_requirements = true
+money_reward = 2750
+exp_reward = 350
+repeatable = false

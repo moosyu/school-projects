@@ -1,0 +1,109 @@
+[gd_scene load_steps=10 format=3 uid="uid://degfflt7md2t2"]
+
+[ext_resource type="PackedScene" uid="uid://dfuvu4671fko2" path="res://pages/tutorial/scenes/tutorial_offer.tscn" id="1_bf7m6"]
+[ext_resource type="Script" path="res://pages/tutorial/scripts/tutorial_offers_list.gd" id="1_uvq16"]
+[ext_resource type="FontFile" uid="uid://d1lpjp4ojwfiy" path="res://assets/fonts/bm-kkubulim.regular.otf" id="2_iomlg"]
+[ext_resource type="FontFile" uid="uid://ccwh3re7anpp4" path="res://assets/fonts/Carlito-BoldItalic.ttf" id="3_66sgk"]
+[ext_resource type="FontFile" uid="uid://iqvuuoko6x0p" path="res://assets/fonts/Carlito-Bold.ttf" id="4_tbeg7"]
+[ext_resource type="FontFile" uid="uid://bg1uiqnkiuxrm" path="res://assets/fonts/friendlyscribbles.ttf" id="5_to8tp"]
+[ext_resource type="StyleBox" uid="uid://dqvf33128onjk" path="res://styles/complete_button.tres" id="6_6yrv6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_k4nt1"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jphb4"]
+bg_color = Color(0.180392, 0.0196078, 0.0431373, 0.27451)
+border_width_left = 4
+border_color = Color(0.890196, 0.890196, 0.886275, 0.588235)
+
+[node name="TutorialOffersContainer" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_k4nt1")
+script = ExtResource("1_uvq16")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer/HBoxContainer/MarginContainer"]
+custom_minimum_size = Vector2(650, 0)
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer/MarginContainer/ScrollContainer"]
+layout_mode = 2
+
+[node name="OffersItemPanel" parent="MarginContainer/HBoxContainer/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("1_bf7m6")]
+layout_mode = 2
+
+[node name="VBoxContainerMessage" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/HBoxContainer/VBoxContainerMessage"]
+texture_filter = 1
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_jphb4")
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/HBoxContainer/VBoxContainerMessage/PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 6
+theme_override_constants/margin_top = 6
+theme_override_constants/margin_right = 6
+theme_override_constants/margin_bottom = 6
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer/VBoxContainerMessage/PanelContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer/HBoxContainer/VBoxContainerMessage/PanelContainer/MarginContainer/VBoxContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = 3
+theme_override_fonts/normal_font = ExtResource("2_iomlg")
+theme_override_fonts/bold_italics_font = ExtResource("3_66sgk")
+theme_override_fonts/bold_font = ExtResource("4_tbeg7")
+theme_override_font_sizes/normal_font_size = 32
+bbcode_enabled = true
+text = "[font_size=48]Welcome![/font_size]
+This is the official Pond messaging service, Finbox™.
+If you have any messages they'll appear to your left! Press on them to display them on this panel here.
+New messages will appear with little green dots to their left.
+Enkoi!"
+
+[node name="CompleteButton" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainerMessage/PanelContainer/MarginContainer/VBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(0, 65)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_fonts/font = ExtResource("5_to8tp")
+theme_override_font_sizes/font_size = 64
+theme_override_styles/focus = ExtResource("6_6yrv6")
+theme_override_styles/disabled_mirrored = ExtResource("6_6yrv6")
+theme_override_styles/disabled = ExtResource("6_6yrv6")
+theme_override_styles/hover_pressed_mirrored = ExtResource("6_6yrv6")
+theme_override_styles/hover_pressed = ExtResource("6_6yrv6")
+theme_override_styles/hover_mirrored = ExtResource("6_6yrv6")
+theme_override_styles/hover = ExtResource("6_6yrv6")
+theme_override_styles/pressed_mirrored = ExtResource("6_6yrv6")
+theme_override_styles/pressed = ExtResource("6_6yrv6")
+theme_override_styles/normal_mirrored = ExtResource("6_6yrv6")
+theme_override_styles/normal = ExtResource("6_6yrv6")
+text = "Complete"
+
+[connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainerMessage/PanelContainer/MarginContainer/VBoxContainer/CompleteButton" to="." method="_on_complete_button_pressed"]

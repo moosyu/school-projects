@@ -1,0 +1,187 @@
+[gd_scene load_steps=10 format=3 uid="uid://bhapgihsxxvy"]
+
+[ext_resource type="Script" path="res://pages/tutorial/scripts/tutorial_menu.gd" id="1_anwb8"]
+[ext_resource type="PackedScene" uid="uid://b23xod56e85xe" path="res://pages/tutorial/scenes/tutorial_tooltip.tscn" id="1_e7qrc"]
+[ext_resource type="Texture2D" uid="uid://ge2ukte1pgbg" path="res://assets/sprites/ui/bg.png" id="2_d1c8x"]
+[ext_resource type="LabelSettings" uid="uid://dnauixj4kauah" path="res://styles/default_label.tres" id="3_o5go5"]
+[ext_resource type="FontFile" uid="uid://bg1uiqnkiuxrm" path="res://assets/fonts/friendlyscribbles.ttf" id="4_fml5u"]
+[ext_resource type="StyleBox" uid="uid://x6c41ilq5mf2" path="res://styles/nav_button.tres" id="5_ycu5x"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6u1pl"]
+texture = ExtResource("2_d1c8x")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_d4uaf"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lw31w"]
+bg_color = Color(1, 1, 1, 0.0980392)
+
+[node name="TutorialMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_anwb8")
+
+[node name="TutorialTooltip" parent="." instance=ExtResource("1_e7qrc")]
+layout_mode = 0
+
+[node name="BG" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_6u1pl")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 0
+
+[node name="MainContentPanel" type="Panel" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxEmpty_d4uaf")
+
+[node name="NavbarBottomContainer" type="PanelContainer" parent="VBoxContainer"]
+texture_filter = 1
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lw31w")
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/NavbarBottomContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 15
+theme_override_constants/margin_bottom = 5
+
+[node name="ButtonsContainer" type="HBoxContainer" parent="VBoxContainer/NavbarBottomContainer/MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+theme_override_constants/separation = 10
+
+[node name="OffersButton" type="Button" parent="VBoxContainer/NavbarBottomContainer/MarginContainer/ButtonsContainer"]
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_fonts/font = ExtResource("4_fml5u")
+theme_override_font_sizes/font_size = 48
+theme_override_styles/focus = ExtResource("5_ycu5x")
+theme_override_styles/disabled_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/disabled = ExtResource("5_ycu5x")
+theme_override_styles/hover_pressed_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/hover_pressed = ExtResource("5_ycu5x")
+theme_override_styles/hover_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/hover = ExtResource("5_ycu5x")
+theme_override_styles/pressed_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/pressed = ExtResource("5_ycu5x")
+theme_override_styles/normal_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/normal = ExtResource("5_ycu5x")
+text = "MESSAGES"
+
+[node name="CatalogButton" type="Button" parent="VBoxContainer/NavbarBottomContainer/MarginContainer/ButtonsContainer"]
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_fonts/font = ExtResource("4_fml5u")
+theme_override_font_sizes/font_size = 48
+theme_override_styles/focus = ExtResource("5_ycu5x")
+theme_override_styles/disabled_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/disabled = ExtResource("5_ycu5x")
+theme_override_styles/hover_pressed_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/hover_pressed = ExtResource("5_ycu5x")
+theme_override_styles/hover_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/hover = ExtResource("5_ycu5x")
+theme_override_styles/pressed_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/pressed = ExtResource("5_ycu5x")
+theme_override_styles/normal_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/normal = ExtResource("5_ycu5x")
+disabled = true
+text = "CATALOG"
+
+[node name="StorageButton" type="Button" parent="VBoxContainer/NavbarBottomContainer/MarginContainer/ButtonsContainer"]
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_fonts/font = ExtResource("4_fml5u")
+theme_override_font_sizes/font_size = 48
+theme_override_styles/focus = ExtResource("5_ycu5x")
+theme_override_styles/disabled_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/disabled = ExtResource("5_ycu5x")
+theme_override_styles/hover_pressed_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/hover_pressed = ExtResource("5_ycu5x")
+theme_override_styles/hover_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/hover = ExtResource("5_ycu5x")
+theme_override_styles/pressed_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/pressed = ExtResource("5_ycu5x")
+theme_override_styles/normal_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/normal = ExtResource("5_ycu5x")
+text = "STORAGE"
+
+[node name="BrowseButton" type="Button" parent="VBoxContainer/NavbarBottomContainer/MarginContainer/ButtonsContainer"]
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_fonts/font = ExtResource("4_fml5u")
+theme_override_font_sizes/font_size = 48
+theme_override_styles/focus = ExtResource("5_ycu5x")
+theme_override_styles/disabled_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/disabled = ExtResource("5_ycu5x")
+theme_override_styles/hover_pressed_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/hover_pressed = ExtResource("5_ycu5x")
+theme_override_styles/hover_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/hover = ExtResource("5_ycu5x")
+theme_override_styles/pressed_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/pressed = ExtResource("5_ycu5x")
+theme_override_styles/normal_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/normal = ExtResource("5_ycu5x")
+disabled = true
+text = "AUCTION"
+
+[node name="StartButton" type="Button" parent="VBoxContainer/NavbarBottomContainer/MarginContainer/ButtonsContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+mouse_default_cursor_shape = 2
+theme_override_fonts/font = ExtResource("4_fml5u")
+theme_override_font_sizes/font_size = 48
+theme_override_styles/focus = ExtResource("5_ycu5x")
+theme_override_styles/disabled_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/disabled = ExtResource("5_ycu5x")
+theme_override_styles/hover_pressed_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/hover_pressed = ExtResource("5_ycu5x")
+theme_override_styles/hover_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/hover = ExtResource("5_ycu5x")
+theme_override_styles/pressed_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/pressed = ExtResource("5_ycu5x")
+theme_override_styles/normal_mirrored = ExtResource("5_ycu5x")
+theme_override_styles/normal = ExtResource("5_ycu5x")
+text = "START ROUND"
+
+[node name="GOLabel" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -960.0
+offset_top = -15.0
+offset_right = 960.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "GAME OVER!"
+label_settings = ExtResource("3_o5go5")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="VBoxContainer/NavbarBottomContainer/MarginContainer/ButtonsContainer/OffersButton" to="." method="_on_offers_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/NavbarBottomContainer/MarginContainer/ButtonsContainer/CatalogButton" to="." method="_on_catalog_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/NavbarBottomContainer/MarginContainer/ButtonsContainer/StorageButton" to="." method="_on_storage_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/NavbarBottomContainer/MarginContainer/ButtonsContainer/BrowseButton" to="." method="_on_browse_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/NavbarBottomContainer/MarginContainer/ButtonsContainer/StartButton" to="." method="_on_start_button_pressed"]

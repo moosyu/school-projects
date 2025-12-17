@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ChocolatesUpgrade" load_steps=2 format=3 uid="uid://b3402ynjiqnqu"]
+
+[ext_resource type="Script" path="res://pages/upgrades/scripts/upgrades/chocolates_script.gd" id="1_dna57"]
+
+[resource]
+script = ExtResource("1_dna57")
+price = 100
+upgrade_name = "Buy Steve chocolate"
+max_level = 1
+level = 0

@@ -1,0 +1,70 @@
+[gd_scene load_steps=8 format=3 uid="uid://ccsu2r2q0gswk"]
+
+[ext_resource type="StyleBox" uid="uid://dxfykvwb0p6v5" path="res://styles/item_unchanged.tres" id="1_cxb66"]
+[ext_resource type="Script" path="res://pages/storage/scripts/storage_item.gd" id="2_fag52"]
+[ext_resource type="Texture2D" uid="uid://blew508l0sd3b" path="res://assets/sprites/fish-icons/snapper.png" id="3_2pdqw"]
+[ext_resource type="FontFile" uid="uid://d1lpjp4ojwfiy" path="res://assets/fonts/bm-kkubulim.regular.otf" id="4_t4uun"]
+[ext_resource type="FontFile" uid="uid://bg1uiqnkiuxrm" path="res://assets/fonts/friendlyscribbles.ttf" id="5_6mbpa"]
+[ext_resource type="StyleBox" uid="uid://xt5v685r88rp" path="res://styles/item_button.tres" id="6_7m3so"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_hhqlm"]
+
+[node name="StorageItem" type="PanelContainer"]
+offset_right = 476.0
+offset_bottom = 612.0
+theme_override_styles/panel = ExtResource("1_cxb66")
+script = ExtResource("2_fag52")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="IconTexture" type="TextureRect" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+texture = ExtResource("3_2pdqw")
+expand_mode = 5
+
+[node name="DetailsLabel" type="Label" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(580, 0)
+layout_mode = 2
+size_flags_horizontal = 2
+mouse_filter = 0
+theme_override_colors/font_color = Color(0.533333, 0.8, 0.988235, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = 3
+theme_override_fonts/font = ExtResource("4_t4uun")
+theme_override_font_sizes/font_size = 48
+theme_override_styles/normal = SubResource("StyleBoxEmpty_hhqlm")
+text = "Mola Mola  2000KG-10D-N"
+
+[node name="SellButton" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 8
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("5_6mbpa")
+theme_override_font_sizes/font_size = 48
+theme_override_styles/focus = ExtResource("6_7m3so")
+theme_override_styles/disabled_mirrored = ExtResource("6_7m3so")
+theme_override_styles/disabled = ExtResource("6_7m3so")
+theme_override_styles/hover_pressed_mirrored = ExtResource("6_7m3so")
+theme_override_styles/hover_pressed = ExtResource("6_7m3so")
+theme_override_styles/hover_mirrored = ExtResource("6_7m3so")
+theme_override_styles/hover = ExtResource("6_7m3so")
+theme_override_styles/pressed_mirrored = ExtResource("6_7m3so")
+theme_override_styles/pressed = ExtResource("6_7m3so")
+theme_override_styles/normal_mirrored = ExtResource("6_7m3so")
+theme_override_styles/normal = ExtResource("6_7m3so")
+text = "Sell: $600.00"
+
+[connection signal="gui_input" from="MarginContainer/VBoxContainer/DetailsLabel" to="." method="_on_details_label_gui_input"]
+[connection signal="mouse_entered" from="MarginContainer/VBoxContainer/DetailsLabel" to="." method="_on_details_label_mouse_entered"]
+[connection signal="mouse_exited" from="MarginContainer/VBoxContainer/DetailsLabel" to="." method="_on_details_label_mouse_exited"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/SellButton" to="." method="_on_sell_button_pressed"]

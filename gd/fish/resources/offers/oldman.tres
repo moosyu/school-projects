@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=2 format=3 uid="uid://8orj6jto21as"]
+
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_ye0mw"]
+
+[resource]
+script = ExtResource("1_ye0mw")
+sender = "Old man"
+intro = "i DESPERATELY NEED YOUR HELP"
+details = "helloi want FISH_NAME badly1! please!!"
+required_size = 0
+required_alive = false
+level_requirement = 0
+has_requirements = true
+money_reward = 250
+exp_reward = 10
+repeatable = false

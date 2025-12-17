@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://487suqdnwaao"]
+
+[ext_resource type="Resource" uid="uid://f1rtq6e2a1l7" path="res://resources/fish/carp.tres" id="1_bb1gd"]
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="2_n5uq6"]
+
+[resource]
+script = ExtResource("2_n5uq6")
+sender = "Steven"
+intro = "Need help winning an argument"
+details = "My wife is always far too picky with her food so I need you to get me a cheap FISH_NAME to get back at her, she'll never know what she's eating is actually a trash fish once I'm done with it!"
+requirement = ExtResource("1_bb1gd")
+required_quality = 0
+required_size = 0
+required_alive = false
+level_requirement = 0
+has_requirements = true
+money_reward = 95
+exp_reward = 15
+repeatable = false

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemBase" load_steps=3 format=3 uid="uid://b53faeq4agbwi"]
+
+[ext_resource type="Texture2D" uid="uid://2o8cqsojw4t3" path="res://assets/sprites/fish-icons/blue_salmon.png" id="1_5it4w"]
+[ext_resource type="Script" path="res://pages/items/scripts/item_base.gd" id="1_frhqc"]
+
+[resource]
+script = ExtResource("1_frhqc")
+name = "Blue Salmon"
+species = "Sockeye salmon"
+fish_icon = ExtResource("1_5it4w")
+base_price = 1000
+fact = "Blue Salmon is not actually a salmon variety (unfortunately). While blue threadfin is sometimes called blue salmon to visual similarities, it's not truly a salmon."
+price_multiplier = 1
+level_requirement = 0
+always_spawnable = false
+minimum_weight = 2
+maximum_weight = 7
+weight_measurement_shorthand = "KG"
+weight_measurement_longhand = "kilogram"

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemBase" load_steps=3 format=3 uid="uid://c5iql8d0k0a2j"]
+
+[ext_resource type="Script" path="res://pages/items/scripts/item_base.gd" id="1_s2cgt"]
+[ext_resource type="Texture2D" uid="uid://grigqqsbgsxm" path="res://assets/sprites/fish-icons/pike.png" id="1_tn8ie"]
+
+[resource]
+script = ExtResource("1_s2cgt")
+name = "Pike"
+species = "Northern pike"
+fish_icon = ExtResource("1_tn8ie")
+base_price = 30
+fact = "A single female pike could produce between 50,000 and 500,000 eggs in her lifetime."
+price_multiplier = 1
+level_requirement = 0
+always_spawnable = true
+minimum_weight = 4
+maximum_weight = 18
+weight_measurement_shorthand = "KG"
+weight_measurement_longhand = "kilogram"

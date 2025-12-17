@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://dm2mr547w0da2"]
+
+[ext_resource type="Resource" uid="uid://1er15yu4l7bj" path="res://resources/fish/salmon.tres" id="1_bxhle"]
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="2_gc1x7"]
+
+[resource]
+script = ExtResource("2_gc1x7")
+sender = "Glug"
+intro = "AHHHHHH"
+details = "HELP!! A BOMB I'VE BEEN CAREFULLY NURSING BLEW UP!! THE ONLY WAY TO HEAL THIS FATAL INJURY IS WITH THE BLOOD OF A [color=#42a5c4]LIVING[/color] [color=#42c46d]SALMON[/color]. GET ME ONE NOW!!"
+requirement = ExtResource("1_bxhle")
+required_size = 0
+required_alive = true
+level_requirement = 1
+has_requirements = true
+money_reward = 800
+exp_reward = 80
+repeatable = false

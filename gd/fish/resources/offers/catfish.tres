@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://7usa87v2htg2"]
+
+[ext_resource type="Resource" uid="uid://c6rpuy3q8qj47" path="res://resources/fish/catfish.tres" id="1_0a6yo"]
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_slyef"]
+
+[resource]
+script = ExtResource("1_slyef")
+sender = "Mr Catfish"
+intro = "Hey there 😉"
+details = "It'd be lovely if you could get me a FISH_NAME, make sure it's REQUIRED_ALIVE and has a little heft. At least REQUIRED_SIZEkgs.
+- [color=#0798fa]Mr Catfish[/color] 💋"
+requirement = ExtResource("1_0a6yo")
+required_size = 55
+required_alive = true
+level_requirement = 3
+has_requirements = true
+money_reward = 400
+exp_reward = 170
+repeatable = false

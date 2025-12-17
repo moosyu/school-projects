@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://cd44otjdk8asu"]
+
+[ext_resource type="Resource" uid="uid://b2cgum1mgym1p" path="res://resources/fish/trout.tres" id="1_724sj"]
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_v2r81"]
+
+[resource]
+script = ExtResource("1_v2r81")
+sender = "Joseph Biden"
+intro = "(No relation)"
+details = "I'm just an old man, my final wish was to have one last FISH_NAME before my end and yet my IDIOT secretary is incapable of finding me one. If you'd be so inclined, could you find me a nice one in his place? If you can get me one that weighs over [color=#c44dbf]11[/color]kgs you might find yourself with a new position."
+requirement = ExtResource("1_724sj")
+required_size = 12
+required_alive = false
+level_requirement = 3
+has_requirements = true
+money_reward = 440
+exp_reward = 180
+repeatable = false

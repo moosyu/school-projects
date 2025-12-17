@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://dd0qrhs7yjg86"]
+
+[ext_resource type="Resource" uid="uid://bil5ghriknie2" path="res://resources/fish/clownfish.tres" id="1_7p3sx"]
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="2_4wvsn"]
+
+[resource]
+script = ExtResource("2_4wvsn")
+sender = "Jeremy"
+intro = "Looking to clown around"
+details = "I'm starting my new job as a clown soon and I was thinking, what do clowns do? Then I found out there is a fish called FISH_NAME and that seems like it'll put me on the right track so get  me one please mand make sure it's a big one, REQUIRED_SIZE grams maybe."
+requirement = ExtResource("1_7p3sx")
+required_size = 120
+required_alive = false
+level_requirement = 3
+has_requirements = true
+money_reward = 950
+exp_reward = 250
+repeatable = false

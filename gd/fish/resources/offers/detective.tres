@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://dr2d31i65pt54"]
+
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_iewat"]
+[ext_resource type="Resource" uid="uid://b2cgum1mgym1p" path="res://resources/fish/trout.tres" id="1_j73hj"]
+
+[resource]
+script = ExtResource("1_iewat")
+sender = "The detective"
+intro = "I'm on the case."
+details = "There's a wicked FISH_NAME on the run! I'm the #1 detective, I've solved every case I've been given, but this one has me stumped. If you can track me down the missing FISH_NAME I'd even let you become my #2. I don't know any details about him, apart from being pretty sure he's REQUIRED_ALIVE."
+requirement = ExtResource("1_j73hj")
+required_size = 0
+required_alive = true
+level_requirement = 0
+has_requirements = true
+money_reward = 200
+exp_reward = 70
+repeatable = false

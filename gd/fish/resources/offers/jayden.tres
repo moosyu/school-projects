@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://i1hk2t8q1s6l"]
+
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_374du"]
+[ext_resource type="Resource" uid="uid://cupkq1gi01e84" path="res://resources/fish/cod.tres" id="1_xhj0g"]
+
+[resource]
+script = ExtResource("1_374du")
+sender = "Jayden"
+intro = "Need a muse"
+details = "I'm looking for a cod to be my muse so I can achieve rowing mastery. To achieve my goal I'll need the cod to be off the highest degree too, I'd like one of at least REQUIRED_SIZEkgs, make sure it's REQUIRED_ALIVE too. Cheers."
+requirement = ExtResource("1_xhj0g")
+required_size = 15
+required_alive = true
+level_requirement = 3
+has_requirements = true
+money_reward = 500
+exp_reward = 250
+repeatable = false

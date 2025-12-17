@@ -1,0 +1,87 @@
+[gd_scene load_steps=9 format=3 uid="uid://cftr0ykwep66e"]
+
+[ext_resource type="Script" path="res://pages/offers/scripts/offer.gd" id="1_gxxt0"]
+[ext_resource type="StyleBox" uid="uid://bh0arjiqmchip" path="res://styles/offer_unclicked_unselected.tres" id="1_lkgr8"]
+[ext_resource type="FontFile" uid="uid://grerfhlep4mj" path="res://assets/fonts/Carlito-Regular.ttf" id="2_hm56h"]
+[ext_resource type="FontFile" uid="uid://d1lpjp4ojwfiy" path="res://assets/fonts/bm-kkubulim.regular.otf" id="3_wi3af"]
+[ext_resource type="FontFile" uid="uid://bg1uiqnkiuxrm" path="res://assets/fonts/friendlyscribbles.ttf" id="6_nhpgb"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b2x65"]
+content_margin_top = 5.0
+draw_center = false
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qpwwc"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dfas6"]
+content_margin_top = 5.0
+draw_center = false
+
+[node name="OffersItemPanel" type="PanelContainer"]
+custom_minimum_size = Vector2(650, 0)
+offset_right = 650.0
+offset_bottom = 87.0
+mouse_default_cursor_shape = 2
+theme_override_styles/panel = ExtResource("1_lkgr8")
+script = ExtResource("1_gxxt0")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 6
+theme_override_constants/margin_top = 6
+theme_override_constants/margin_right = 6
+theme_override_constants/margin_bottom = 6
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="SenderLabel" type="Label" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = 3
+theme_override_fonts/font = ExtResource("3_wi3af")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_b2x65")
+text = "Joe Biden"
+
+[node name="SeperatorLabel" type="Label" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_hm56h")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_qpwwc")
+text = "|"
+
+[node name="MoneyLabel" type="Label" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = 3
+theme_override_fonts/font = ExtResource("3_wi3af")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_dfas6")
+text = "$0.00"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 35)
+layout_mode = 2
+
+[node name="DetailsLabel" type="Label" parent="MarginContainer/VBoxContainer/ScrollContainer"]
+custom_minimum_size = Vector2(600, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = 3
+theme_override_fonts/font = ExtResource("6_nhpgb")
+theme_override_font_sizes/font_size = 28
+text = "I know what beasts there are at the bottom of the sea"
+vertical_alignment = 1
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

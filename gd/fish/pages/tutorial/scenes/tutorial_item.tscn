@@ -1,0 +1,153 @@
+[gd_scene load_steps=10 format=3 uid="uid://ne3wwuwoo5cd"]
+
+[ext_resource type="StyleBox" uid="uid://dxfykvwb0p6v5" path="res://styles/item_unchanged.tres" id="1_hu5hq"]
+[ext_resource type="Script" path="res://pages/tutorial/scripts/tutorial_item.gd" id="2_k6qg8"]
+[ext_resource type="Texture2D" uid="uid://crk2uxok5w5t8" path="res://assets/sprites/fish-icons/salmon.png" id="3_5l1si"]
+[ext_resource type="LabelSettings" uid="uid://crumelc6ixrf3" path="res://styles/details_label.tres" id="4_ngyei"]
+[ext_resource type="Texture2D" uid="uid://dp7gc5b43lpvj" path="res://assets/sprites/icons/star-icon.png" id="5_umpqq"]
+[ext_resource type="FontFile" uid="uid://bg1uiqnkiuxrm" path="res://assets/fonts/friendlyscribbles.ttf" id="6_1q26k"]
+
+[sub_resource type="Animation" id="Animation_jsbjx"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("HiddenPanel:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("HiddenPanel:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_xulro"]
+resource_name = "auction_close"
+length = 0.4
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("HiddenPanel:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("HiddenPanel:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_e5eso"]
+_data = {
+"RESET": SubResource("Animation_jsbjx"),
+"auction_close": SubResource("Animation_xulro")
+}
+
+[node name="TutorialItemContainer" type="PanelContainer"]
+custom_minimum_size = Vector2(600, 0)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -300.0
+offset_top = -404.0
+offset_right = 300.0
+offset_bottom = 404.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(300, 300)
+theme_override_styles/panel = ExtResource("1_hu5hq")
+script = ExtResource("2_k6qg8")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="IconTexture" type="TextureRect" parent="MarginContainer/VBoxContainer"]
+texture_filter = 2
+texture_repeat = 1
+layout_mode = 2
+texture = ExtResource("3_5l1si")
+expand_mode = 5
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="DetailsLabel" type="Label" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+mouse_filter = 0
+text = "Salmon 2KG-10D-D"
+label_settings = ExtResource("4_ngyei")
+
+[node name="StarTexture" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+texture = ExtResource("5_umpqq")
+expand_mode = 3
+
+[node name="PriceTitleLabel" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = 12
+theme_override_fonts/font = ExtResource("6_1q26k")
+theme_override_font_sizes/font_size = 48
+text = "Current price:"
+horizontal_alignment = 1
+
+[node name="PriceLabel" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = 12
+theme_override_fonts/font = ExtResource("6_1q26k")
+theme_override_font_sizes/font_size = 72
+text = "$20"
+horizontal_alignment = 1
+
+[node name="HiddenPanel" type="PanelContainer" parent="."]
+visible = false
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_e5eso")
+}
+
+[connection signal="gui_input" from="MarginContainer/VBoxContainer/HBoxContainer/DetailsLabel" to="." method="_on_details_label_gui_input"]
+[connection signal="mouse_entered" from="MarginContainer/VBoxContainer/HBoxContainer/DetailsLabel" to="." method="_on_details_label_mouse_entered"]
+[connection signal="mouse_exited" from="MarginContainer/VBoxContainer/HBoxContainer/DetailsLabel" to="." method="_on_details_label_mouse_exited"]

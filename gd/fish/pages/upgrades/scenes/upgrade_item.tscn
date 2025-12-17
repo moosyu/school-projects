@@ -1,0 +1,60 @@
+[gd_scene load_steps=6 format=3 uid="uid://dhy200tso0hsd"]
+
+[ext_resource type="Script" path="res://pages/upgrades/scripts/upgrade_item.gd" id="1_12qbl"]
+[ext_resource type="FontFile" uid="uid://bg1uiqnkiuxrm" path="res://assets/fonts/friendlyscribbles.ttf" id="1_i2dv6"]
+[ext_resource type="StyleBox" uid="uid://xt5v685r88rp" path="res://styles/item_button.tres" id="2_72gcj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_22ycd"]
+bg_color = Color(0.180392, 0.0196078, 0.0431373, 0.27451)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0hn5c"]
+
+[node name="UpgradeItem" type="PanelContainer"]
+custom_minimum_size = Vector2(1400, 120)
+offset_right = 1010.0
+offset_bottom = 120.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_22ycd")
+script = ExtResource("1_12qbl")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 100
+
+[node name="TitleLabel" type="Label" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_i2dv6")
+theme_override_font_sizes/font_size = 54
+text = "Upgrade inbox size"
+vertical_alignment = 1
+
+[node name="BuyUpgrade" type="Button" parent="MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_i2dv6")
+theme_override_font_sizes/font_size = 64
+theme_override_styles/focus = SubResource("StyleBoxEmpty_0hn5c")
+theme_override_styles/disabled_mirrored = ExtResource("2_72gcj")
+theme_override_styles/disabled = ExtResource("2_72gcj")
+theme_override_styles/hover_pressed_mirrored = ExtResource("2_72gcj")
+theme_override_styles/hover_pressed = ExtResource("2_72gcj")
+theme_override_styles/hover_mirrored = ExtResource("2_72gcj")
+theme_override_styles/hover = ExtResource("2_72gcj")
+theme_override_styles/pressed_mirrored = ExtResource("2_72gcj")
+theme_override_styles/pressed = ExtResource("2_72gcj")
+theme_override_styles/normal_mirrored = ExtResource("2_72gcj")
+theme_override_styles/normal = ExtResource("2_72gcj")
+text = "Buy: $26"
+
+[connection signal="pressed" from="MarginContainer/HBoxContainer/BuyUpgrade" to="." method="_on_buy_upgrade_pressed"]

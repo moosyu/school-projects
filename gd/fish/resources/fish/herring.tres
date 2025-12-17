@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemBase" load_steps=3 format=3 uid="uid://cxpbwqawjmp2t"]
+
+[ext_resource type="Script" path="res://pages/items/scripts/item_base.gd" id="1_garo3"]
+[ext_resource type="Texture2D" uid="uid://bbrxp0oboremf" path="res://assets/sprites/fish-icons/herring.png" id="1_qg83f"]
+
+[resource]
+script = ExtResource("1_garo3")
+name = "Herring"
+species = "Atlantic herring"
+fish_icon = ExtResource("1_qg83f")
+base_price = 10
+fact = "Herrings swim in schools that can consist of millions of fish and be as high as 100 metres."
+price_multiplier = 1
+level_requirement = 0
+always_spawnable = true
+minimum_weight = 1
+maximum_weight = 2
+weight_measurement_shorthand = "KG"
+weight_measurement_longhand = "kilogram"

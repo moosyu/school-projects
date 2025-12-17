@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=2 format=3 uid="uid://bs84basalkqij"]
+
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_8yrl4"]
+
+[resource]
+script = ExtResource("1_8yrl4")
+sender = "Joan"
+intro = "In deep financial jeopardy"
+details = "Please help me out, I'm $20000.00 in debt, I'm pretty sure the only way I can dig myself out of this pit is by becoming a famous fishtuber, problem is I don't have any fish... Please get me a FISH_NAME, I don't have any money to pay you with but I can pay you in exposure!"
+required_quality = 0
+required_size = 0
+required_alive = false
+level_requirement = 0
+has_requirements = true
+money_reward = 0
+exp_reward = 170
+repeatable = true

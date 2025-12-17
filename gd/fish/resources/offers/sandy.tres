@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://sy0mxgorsusw"]
+
+[ext_resource type="Resource" uid="uid://c5iql8d0k0a2j" path="res://resources/fish/pike.tres" id="1_d838m"]
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_mjlps"]
+
+[resource]
+script = ExtResource("1_mjlps")
+sender = "Sandy Loam"
+intro = "I've made a terrible mistake"
+details = "I must reconcile with a friend and I think what she needs right now is a FISH_NAME! Please get a big one, at least REQUIRED_SIZEkgs."
+requirement = ExtResource("1_d838m")
+required_quality = 0
+required_size = 5
+required_expiration = 0
+required_alive = false
+level_requirement = 0
+has_requirements = true
+money_reward = 210
+exp_reward = 35
+repeatable = false

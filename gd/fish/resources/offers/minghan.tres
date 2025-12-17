@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://b48l5ho8ydh4w"]
+
+[ext_resource type="Resource" uid="uid://eat0dvkuofye" path="res://resources/fish/snapper.tres" id="1_rkfry"]
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_wjvxw"]
+
+[resource]
+script = ExtResource("1_wjvxw")
+sender = "Minghan Zhuo"
+intro = "Please get me a snapper 🥺"
+details = "I am DESPERATE for a delicious snapper to gift to my [color=pink]love[/color] ❤️!! Please get me one ASAP that weighs at least REQUIRED_SIZE, REQUIRED_ALIVE too."
+requirement = ExtResource("1_rkfry")
+required_size = 10
+required_alive = true
+level_requirement = 2
+has_requirements = true
+money_reward = 350
+exp_reward = 75
+repeatable = false

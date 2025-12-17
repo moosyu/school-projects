@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://bxo2j6ds1kl8v"]
+
+[ext_resource type="Resource" uid="uid://c6rpuy3q8qj47" path="res://resources/fish/catfish.tres" id="1_3tvey"]
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_oo05e"]
+
+[resource]
+script = ExtResource("1_oo05e")
+sender = "Kevin"
+intro = "Need fish. Quick!"
+details = "Me think why waste time say lot word when few word do trick? Me need FISH_NAME dinner, get quick. Thank."
+requirement = ExtResource("1_3tvey")
+required_size = 0
+required_alive = false
+level_requirement = 1
+has_requirements = true
+money_reward = 280
+exp_reward = 80
+repeatable = false

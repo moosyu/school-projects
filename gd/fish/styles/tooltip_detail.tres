@@ -1,0 +1,7 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://b4gmdh8nijusk"]
+
+[ext_resource type="FontFile" uid="uid://d1lpjp4ojwfiy" path="res://assets/fonts/bm-kkubulim.regular.otf" id="1_epscj"]
+
+[resource]
+font = ExtResource("1_epscj")
+font_size = 30

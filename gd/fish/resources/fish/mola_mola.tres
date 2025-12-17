@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemBase" load_steps=3 format=3 uid="uid://ibimwtieh1b4"]
+
+[ext_resource type="Texture2D" uid="uid://2d5tlcbxbdrg" path="res://assets/sprites/fish-icons/mola_mola.png" id="1_hr3u7"]
+[ext_resource type="Script" path="res://pages/items/scripts/item_base.gd" id="2_bfk1t"]
+
+[resource]
+script = ExtResource("2_bfk1t")
+name = "Mola Mola"
+species = "Nusa Lembongan Mola Mola"
+fish_icon = ExtResource("1_hr3u7")
+base_price = 100
+fact = "Mola mola's are the heaviest bony fish's in the world with the largest one found weighing 2,268kgs."
+price_multiplier = 1
+level_requirement = 4
+always_spawnable = true
+minimum_weight = 250
+maximum_weight = 1750
+weight_measurement_shorthand = "KG"
+weight_measurement_longhand = "kilogram"

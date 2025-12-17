@@ -1,0 +1,314 @@
+[gd_scene load_steps=19 format=3 uid="uid://nb1dev1rybar"]
+
+[ext_resource type="Script" path="res://pages/items/scripts/fish_display.gd" id="1_uvmsp"]
+[ext_resource type="Script" path="res://pages/items/scripts/ai_turns.gd" id="2_at3l2"]
+[ext_resource type="PackedScene" uid="uid://djdty0p2tq4k2" path="res://pages/items/scenes/steve_ai.tscn" id="3_oid5g"]
+[ext_resource type="PackedScene" uid="uid://cmpud5f7ynou5" path="res://pages/items/scenes/teddy_ai.tscn" id="4_1f2e3"]
+[ext_resource type="StyleBox" uid="uid://xt5v685r88rp" path="res://styles/item_button.tres" id="4_k8qvm"]
+[ext_resource type="PackedScene" uid="uid://dcs5r2xguil3k" path="res://pages/items/scenes/brian_ai.tscn" id="5_2ejnt"]
+[ext_resource type="FontFile" uid="uid://bg1uiqnkiuxrm" path="res://assets/fonts/friendlyscribbles.ttf" id="5_scuae"]
+[ext_resource type="PackedScene" uid="uid://cm88oxqv0i7yr" path="res://pages/items/scenes/larry_ai.tscn" id="6_rn26i"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_l55rp"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_sm4br"]
+
+[sub_resource type="Animation" id="Animation_cmbdb"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_3831s"]
+resource_name = "sold_label_appear"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_85uvv"]
+resource_name = "sold_label_disappear"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_kfljo"]
+_data = {
+"RESET": SubResource("Animation_cmbdb"),
+"sold_label_appear": SubResource("Animation_3831s"),
+"sold_label_disappear": SubResource("Animation_85uvv")
+}
+
+[sub_resource type="Animation" id="Animation_g2o53"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TimeLabel:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1e-05, 1e-05)]
+}
+
+[sub_resource type="Animation" id="Animation_amrlb"]
+resource_name = "time_appear"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TimeLabel:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1e-05, 1e-05), Vector2(1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_nbyf0"]
+resource_name = "time_disappear"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TimeLabel:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(1e-05, 1e-05)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_bk0gc"]
+_data = {
+"RESET": SubResource("Animation_g2o53"),
+"time_appear": SubResource("Animation_amrlb"),
+"time_disappear": SubResource("Animation_nbyf0")
+}
+
+[node name="FishDisplay" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_uvmsp")
+
+[node name="AITurns" type="Node" parent="."]
+script = ExtResource("2_at3l2")
+
+[node name="AITurnTimer" type="Timer" parent="AITurns"]
+
+[node name="AIContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -470.0
+offset_right = 200.0
+offset_bottom = 470.0
+grow_vertical = 2
+theme_override_constants/separation = 25
+alignment = 1
+
+[node name="SteveAI" parent="AIContainer" instance=ExtResource("3_oid5g")]
+layout_mode = 2
+
+[node name="TeddyAI" parent="AIContainer" instance=ExtResource("4_1f2e3")]
+layout_mode = 2
+
+[node name="PenelopeAI" parent="AIContainer" instance=ExtResource("5_2ejnt")]
+layout_mode = 2
+
+[node name="LarryAI" parent="AIContainer" instance=ExtResource("6_rn26i")]
+layout_mode = 2
+
+[node name="FishContainer" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxEmpty_l55rp")
+
+[node name="Bid30" type="Button" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -436.0
+offset_top = -38.0
+offset_right = -65.0
+offset_bottom = 38.0
+grow_horizontal = 0
+grow_vertical = 2
+mouse_default_cursor_shape = 2
+theme_override_fonts/font = ExtResource("5_scuae")
+theme_override_font_sizes/font_size = 64
+theme_override_styles/focus = SubResource("StyleBoxEmpty_sm4br")
+theme_override_styles/disabled_mirrored = ExtResource("4_k8qvm")
+theme_override_styles/disabled = ExtResource("4_k8qvm")
+theme_override_styles/hover_pressed_mirrored = ExtResource("4_k8qvm")
+theme_override_styles/hover_pressed = ExtResource("4_k8qvm")
+theme_override_styles/hover_mirrored = ExtResource("4_k8qvm")
+theme_override_styles/hover = ExtResource("4_k8qvm")
+theme_override_styles/pressed_mirrored = ExtResource("4_k8qvm")
+theme_override_styles/pressed = ExtResource("4_k8qvm")
+theme_override_styles/normal_mirrored = ExtResource("4_k8qvm")
+theme_override_styles/normal = ExtResource("4_k8qvm")
+text = "Bid $26"
+
+[node name="TimeLabel" type="Label" parent="."]
+custom_minimum_size = Vector2(440, 0)
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -471.0
+offset_top = -117.0
+offset_right = -31.0
+offset_bottom = -52.0
+grow_horizontal = 0
+grow_vertical = 2
+scale = Vector2(1e-05, 1e-05)
+pivot_offset = Vector2(220, 32.5)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = 6
+theme_override_fonts/font = ExtResource("5_scuae")
+theme_override_font_sizes/font_size = 64
+text = "Time left: 10s"
+horizontal_alignment = 1
+
+[node name="SoldLabel" type="Label" parent="."]
+visible = false
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -246.5
+offset_top = -96.5
+offset_right = 246.5
+offset_bottom = 96.5
+grow_horizontal = 2
+grow_vertical = 2
+rotation = -0.270526
+pivot_offset = Vector2(246.5, 96.5)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = 5
+theme_override_fonts/font = ExtResource("5_scuae")
+theme_override_font_sizes/font_size = 192
+text = "SOLD"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="SoldLabel"]
+libraries = {
+"": SubResource("AnimationLibrary_kfljo")
+}
+
+[node name="AuctionTimer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_bk0gc")
+}
+
+[connection signal="end_round" from="." to="AITurns" method="_on_round_ended"]
+[connection signal="price_increased" from="." to="." method="_on_price_increased"]
+[connection signal="round_started" from="." to="AITurns" method="_on_round_started"]
+[connection signal="ai_turn_made" from="AITurns" to="." method="_on_ai_turn_made"]
+[connection signal="timeout" from="AITurns/AITurnTimer" to="AITurns" method="_on_ai_turn_timer_timeout"]
+[connection signal="price_increased" from="AIContainer/SteveAI" to="." method="_on_price_increased"]
+[connection signal="update_prices" from="AIContainer/SteveAI" to="." method="_on_update_prices"]
+[connection signal="price_increased" from="AIContainer/TeddyAI" to="." method="_on_price_increased"]
+[connection signal="update_prices" from="AIContainer/TeddyAI" to="." method="_on_update_prices"]
+[connection signal="price_increased" from="AIContainer/PenelopeAI" to="." method="_on_price_increased"]
+[connection signal="update_prices" from="AIContainer/PenelopeAI" to="." method="_on_update_prices"]
+[connection signal="price_increased" from="AIContainer/LarryAI" to="." method="_on_price_increased"]
+[connection signal="update_prices" from="AIContainer/LarryAI" to="." method="_on_update_prices"]
+[connection signal="pressed" from="Bid30" to="." method="_on_bid_30_pressed"]
+[connection signal="animation_finished" from="SoldLabel/AnimationPlayer" to="." method="_on_sold_label_animation_finished"]
+[connection signal="timeout" from="AuctionTimer" to="." method="_on_auction_timer_timeout"]

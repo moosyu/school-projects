@@ -1,0 +1,10 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://crumelc6ixrf3"]
+
+[ext_resource type="FontFile" uid="uid://d1lpjp4ojwfiy" path="res://assets/fonts/bm-kkubulim.regular.otf" id="1_rvw08"]
+
+[resource]
+font = ExtResource("1_rvw08")
+font_size = 48
+font_color = Color(0.533333, 0.8, 0.988235, 1)
+shadow_size = 3
+shadow_color = Color(0, 0, 0, 1)

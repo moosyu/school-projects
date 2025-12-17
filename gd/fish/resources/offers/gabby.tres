@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=2 format=3 uid="uid://cuj7tbfeg4m42"]
+
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_etaah"]
+
+[resource]
+script = ExtResource("1_etaah")
+sender = "Gabby"
+intro = "Starving..."
+details = "I went cave diving in search of special rewards but it turns out the only things down here are rocks. I'm starving but all I brought with me are disgusting nuts, get me a  FISH_NAME and I'll give you everything in my wallet."
+required_size = 0
+required_alive = false
+level_requirement = 2
+has_requirements = true
+money_reward = 400
+exp_reward = 85
+repeatable = false

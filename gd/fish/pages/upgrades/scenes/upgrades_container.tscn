@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1tt6cdxhgae8"]
+
+[ext_resource type="Script" path="res://pages/upgrades/scripts/upgrades_container.gd" id="1_aejri"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bbd18"]
+
+[node name="UpgradesContainer" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 29.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_bbd18")
+script = ExtResource("1_aejri")
+
+[node name="UpgradesList" type="VBoxContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 4

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OfferBase" load_steps=3 format=3 uid="uid://bxgfy6gi2686s"]
+
+[ext_resource type="Resource" uid="uid://f1rtq6e2a1l7" path="res://resources/fish/carp.tres" id="1_527ir"]
+[ext_resource type="Script" path="res://pages/offers/scripts/offer_base.gd" id="1_u1374"]
+
+[resource]
+script = ExtResource("1_u1374")
+sender = "Seth"
+intro = "I'm dying out here"
+details = "I ate a rare water buffalo at the water market and I'm filling ill at ease. The only way for me to heal this ailment is if you can give me a fresh, [color=#edd924]living[/color] FISH_NAME."
+requirement = ExtResource("1_527ir")
+required_size = 0
+required_alive = true
+level_requirement = 1
+has_requirements = true
+money_reward = 270
+exp_reward = 70
+repeatable = false

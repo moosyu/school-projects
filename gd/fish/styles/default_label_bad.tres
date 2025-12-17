@@ -1,0 +1,10 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://cq8yck7k5pi1m"]
+
+[ext_resource type="FontFile" uid="uid://d1lpjp4ojwfiy" path="res://assets/fonts/bm-kkubulim.regular.otf" id="1_3np0x"]
+
+[resource]
+font = ExtResource("1_3np0x")
+font_size = 32
+font_color = Color(0.890196, 0, 0.266667, 1)
+outline_size = 8
+outline_color = Color(0.0784314, 0.121569, 0.239216, 1)
