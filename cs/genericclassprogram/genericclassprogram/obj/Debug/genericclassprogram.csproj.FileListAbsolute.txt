@@ -1,0 +1,10 @@
+K:\13IT1 2026-2029\genericclassprogram\genericclassprogram\bin\Debug\genericclassprogram.exe.config
+K:\13IT1 2026-2029\genericclassprogram\genericclassprogram\bin\Debug\genericclassprogram.exe
+K:\13IT1 2026-2029\genericclassprogram\genericclassprogram\bin\Debug\genericclassprogram.pdb
+K:\13IT1 2026-2029\genericclassprogram\genericclassprogram\obj\Debug\genericclassprogram.csproj.AssemblyReference.cache
+K:\13IT1 2026-2029\genericclassprogram\genericclassprogram\obj\Debug\genericclassprogram.Form1.resources
+K:\13IT1 2026-2029\genericclassprogram\genericclassprogram\obj\Debug\genericclassprogram.Properties.Resources.resources
+K:\13IT1 2026-2029\genericclassprogram\genericclassprogram\obj\Debug\genericclassprogram.csproj.GenerateResource.cache
+K:\13IT1 2026-2029\genericclassprogram\genericclassprogram\obj\Debug\genericclassprogram.csproj.CoreCompileInputs.cache
+K:\13IT1 2026-2029\genericclassprogram\genericclassprogram\obj\Debug\genericclassprogram.exe
+K:\13IT1 2026-2029\genericclassprogram\genericclassprogram\obj\Debug\genericclassprogram.pdb

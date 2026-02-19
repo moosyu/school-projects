@@ -1,0 +1,10 @@
+K:\13IT1 2026-2029\gst\gst\bin\Debug\gst.exe.config
+K:\13IT1 2026-2029\gst\gst\bin\Debug\gst.exe
+K:\13IT1 2026-2029\gst\gst\bin\Debug\gst.pdb
+K:\13IT1 2026-2029\gst\gst\obj\Debug\gst.csproj.AssemblyReference.cache
+K:\13IT1 2026-2029\gst\gst\obj\Debug\gst.Properties.Resources.resources
+K:\13IT1 2026-2029\gst\gst\obj\Debug\gst.csproj.GenerateResource.cache
+K:\13IT1 2026-2029\gst\gst\obj\Debug\gst.csproj.CoreCompileInputs.cache
+K:\13IT1 2026-2029\gst\gst\obj\Debug\gst.exe
+K:\13IT1 2026-2029\gst\gst\obj\Debug\gst.pdb
+K:\13IT1 2026-2029\gst\gst\obj\Debug\gst.FormGST.resources

@@ -1,0 +1,10 @@
+K:\13IT1 2026-2029\openfiledialogcsv\openfiledialogcsv\bin\Debug\openfiledialogcsv.exe.config
+K:\13IT1 2026-2029\openfiledialogcsv\openfiledialogcsv\bin\Debug\openfiledialogcsv.exe
+K:\13IT1 2026-2029\openfiledialogcsv\openfiledialogcsv\bin\Debug\openfiledialogcsv.pdb
+K:\13IT1 2026-2029\openfiledialogcsv\openfiledialogcsv\obj\Debug\openfiledialogcsv.csproj.AssemblyReference.cache
+K:\13IT1 2026-2029\openfiledialogcsv\openfiledialogcsv\obj\Debug\openfiledialogcsv.Form1.resources
+K:\13IT1 2026-2029\openfiledialogcsv\openfiledialogcsv\obj\Debug\openfiledialogcsv.Properties.Resources.resources
+K:\13IT1 2026-2029\openfiledialogcsv\openfiledialogcsv\obj\Debug\openfiledialogcsv.csproj.GenerateResource.cache
+K:\13IT1 2026-2029\openfiledialogcsv\openfiledialogcsv\obj\Debug\openfiledialogcsv.csproj.CoreCompileInputs.cache
+K:\13IT1 2026-2029\openfiledialogcsv\openfiledialogcsv\obj\Debug\openfiledialogcsv.exe
+K:\13IT1 2026-2029\openfiledialogcsv\openfiledialogcsv\obj\Debug\openfiledialogcsv.pdb

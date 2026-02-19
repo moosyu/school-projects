@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|k:\\13it1 2026-2029\\as91906_programming\\3dshapes\\3dshapes\\cylinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|solutionrelative:3dshapes\\cylinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|k:\\13it1 2026-2029\\as91906_programming\\3dshapes\\3dshapes\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|solutionrelative:3dshapes\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|solutionrelative:3dshapes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|k:\\13it1 2026-2029\\as91906_programming\\3dshapes\\3dshapes\\shape3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|solutionrelative:3dshapes\\shape3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|k:\\13it1 2026-2029\\as91906_programming\\3dshapes\\3dshapes\\sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|solutionrelative:3dshapes\\sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|k:\\13it1 2026-2029\\as91906_programming\\3dshapes\\3dshapes\\rectangularprism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|solutionrelative:3dshapes\\rectangularprism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|k:\\13it1 2026-2029\\as91906_programming\\3dshapes\\3dshapes\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|solutionrelative:3dshapes\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|k:\\13it1 2026-2029\\as91906_programming\\3dshapes\\3dshapes\\cone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|solutionrelative:3dshapes\\cone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|k:\\13it1 2026-2029\\as91906_programming\\3dshapes\\3dshapes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0381D-EC87-4B5D-8D80-840D9EC3FA08}|3dshapes\\3dshapes.csproj|solutionrelative:3dshapes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sphere.cs",
+              "DocumentMoniker": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\Sphere.cs",
+              "RelativeDocumentMoniker": "3dshapes\\Sphere.cs",
+              "ToolTip": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\Sphere.cs",
+              "RelativeToolTip": "3dshapes\\Sphere.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T00:55:03.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RectangularPrism.cs",
+              "DocumentMoniker": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\RectangularPrism.cs",
+              "RelativeDocumentMoniker": "3dshapes\\RectangularPrism.cs",
+              "ToolTip": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\RectangularPrism.cs",
+              "RelativeToolTip": "3dshapes\\RectangularPrism.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T00:54:54.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pyramid.cs",
+              "DocumentMoniker": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\Pyramid.cs",
+              "RelativeDocumentMoniker": "3dshapes\\Pyramid.cs",
+              "ToolTip": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\Pyramid.cs",
+              "RelativeToolTip": "3dshapes\\Pyramid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T00:54:51.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cylinder.cs",
+              "DocumentMoniker": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\Cylinder.cs",
+              "RelativeDocumentMoniker": "3dshapes\\Cylinder.cs",
+              "ToolTip": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\Cylinder.cs",
+              "RelativeToolTip": "3dshapes\\Cylinder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T00:54:37.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cube.cs",
+              "DocumentMoniker": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\Cube.cs",
+              "RelativeDocumentMoniker": "3dshapes\\Cube.cs",
+              "ToolTip": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\Cube.cs",
+              "RelativeToolTip": "3dshapes\\Cube.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T00:54:38.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cone.cs",
+              "DocumentMoniker": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\Cone.cs",
+              "RelativeDocumentMoniker": "3dshapes\\Cone.cs",
+              "ToolTip": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\Cone.cs",
+              "RelativeToolTip": "3dshapes\\Cone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T00:54:34.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Shape3D.cs",
+              "DocumentMoniker": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\Shape3D.cs",
+              "RelativeDocumentMoniker": "3dshapes\\Shape3D.cs",
+              "ToolTip": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\Shape3D.cs",
+              "RelativeToolTip": "3dshapes\\Shape3D.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T00:44:59.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\Form1.cs",
+              "RelativeDocumentMoniker": "3dshapes\\Form1.cs",
+              "ToolTip": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\Form1.cs",
+              "RelativeToolTip": "3dshapes\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:35:09.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\Form1.cs",
+              "RelativeDocumentMoniker": "3dshapes\\Form1.cs",
+              "ToolTip": "K:\\13IT1 2026-2029\\AS91906_Programming\\3dshapes\\3dshapes\\Form1.cs [Design]",
+              "RelativeToolTip": "3dshapes\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:30:06.661Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

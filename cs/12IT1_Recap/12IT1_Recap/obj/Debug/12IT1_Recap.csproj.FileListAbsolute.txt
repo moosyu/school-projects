@@ -1,0 +1,11 @@
+K:\13IT1 2026-2029\AS91906_Programming\12IT1_Recap\12IT1_Recap\bin\Debug\12IT1_Recap.exe.config
+K:\13IT1 2026-2029\AS91906_Programming\12IT1_Recap\12IT1_Recap\bin\Debug\12IT1_Recap.exe
+K:\13IT1 2026-2029\AS91906_Programming\12IT1_Recap\12IT1_Recap\bin\Debug\12IT1_Recap.pdb
+K:\13IT1 2026-2029\AS91906_Programming\12IT1_Recap\12IT1_Recap\obj\Debug\12IT1_Recap.csproj.AssemblyReference.cache
+K:\13IT1 2026-2029\AS91906_Programming\12IT1_Recap\12IT1_Recap\obj\Debug\12IT1_Recap.csproj.SuggestedBindingRedirects.cache
+K:\13IT1 2026-2029\AS91906_Programming\12IT1_Recap\12IT1_Recap\obj\Debug\_12IT1_Recap.Form1.resources
+K:\13IT1 2026-2029\AS91906_Programming\12IT1_Recap\12IT1_Recap\obj\Debug\_12IT1_Recap.Properties.Resources.resources
+K:\13IT1 2026-2029\AS91906_Programming\12IT1_Recap\12IT1_Recap\obj\Debug\12IT1_Recap.csproj.GenerateResource.cache
+K:\13IT1 2026-2029\AS91906_Programming\12IT1_Recap\12IT1_Recap\obj\Debug\12IT1_Recap.csproj.CoreCompileInputs.cache
+K:\13IT1 2026-2029\AS91906_Programming\12IT1_Recap\12IT1_Recap\obj\Debug\12IT1_Recap.exe
+K:\13IT1 2026-2029\AS91906_Programming\12IT1_Recap\12IT1_Recap\obj\Debug\12IT1_Recap.pdb

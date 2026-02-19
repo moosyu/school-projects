@@ -1,0 +1,11 @@
+K:\13IT1 2026-2029\AS91906_Programming\boom\boom\bin\Debug\boom.exe.config
+K:\13IT1 2026-2029\AS91906_Programming\boom\boom\bin\Debug\boom.exe
+K:\13IT1 2026-2029\AS91906_Programming\boom\boom\bin\Debug\boom.pdb
+K:\13IT1 2026-2029\AS91906_Programming\boom\boom\obj\Debug\boom.csproj.AssemblyReference.cache
+K:\13IT1 2026-2029\AS91906_Programming\boom\boom\obj\Debug\boom.csproj.SuggestedBindingRedirects.cache
+K:\13IT1 2026-2029\AS91906_Programming\boom\boom\obj\Debug\boom.Form1.resources
+K:\13IT1 2026-2029\AS91906_Programming\boom\boom\obj\Debug\boom.Properties.Resources.resources
+K:\13IT1 2026-2029\AS91906_Programming\boom\boom\obj\Debug\boom.csproj.GenerateResource.cache
+K:\13IT1 2026-2029\AS91906_Programming\boom\boom\obj\Debug\boom.csproj.CoreCompileInputs.cache
+K:\13IT1 2026-2029\AS91906_Programming\boom\boom\obj\Debug\boom.exe
+K:\13IT1 2026-2029\AS91906_Programming\boom\boom\obj\Debug\boom.pdb

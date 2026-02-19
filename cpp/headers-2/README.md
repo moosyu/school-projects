@@ -1,0 +1,1 @@
+`g++ main.cpp util.cpp -o main`

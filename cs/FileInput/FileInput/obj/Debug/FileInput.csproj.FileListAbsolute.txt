@@ -1,0 +1,11 @@
+K:\13IT1 2026-2029\AS91906_Programming\FileInput\FileInput\bin\Debug\FileInput.exe.config
+K:\13IT1 2026-2029\AS91906_Programming\FileInput\FileInput\bin\Debug\FileInput.exe
+K:\13IT1 2026-2029\AS91906_Programming\FileInput\FileInput\bin\Debug\FileInput.pdb
+K:\13IT1 2026-2029\AS91906_Programming\FileInput\FileInput\obj\Debug\FileInput.csproj.AssemblyReference.cache
+K:\13IT1 2026-2029\AS91906_Programming\FileInput\FileInput\obj\Debug\FileInput.csproj.SuggestedBindingRedirects.cache
+K:\13IT1 2026-2029\AS91906_Programming\FileInput\FileInput\obj\Debug\FileInput.Form1.resources
+K:\13IT1 2026-2029\AS91906_Programming\FileInput\FileInput\obj\Debug\FileInput.Properties.Resources.resources
+K:\13IT1 2026-2029\AS91906_Programming\FileInput\FileInput\obj\Debug\FileInput.csproj.GenerateResource.cache
+K:\13IT1 2026-2029\AS91906_Programming\FileInput\FileInput\obj\Debug\FileInput.csproj.CoreCompileInputs.cache
+K:\13IT1 2026-2029\AS91906_Programming\FileInput\FileInput\obj\Debug\FileInput.exe
+K:\13IT1 2026-2029\AS91906_Programming\FileInput\FileInput\obj\Debug\FileInput.pdb

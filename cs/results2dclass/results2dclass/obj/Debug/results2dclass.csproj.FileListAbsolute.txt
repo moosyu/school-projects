@@ -1,0 +1,10 @@
+K:\13IT1 2026-2029\results2dclass\results2dclass\bin\Debug\results2dclass.exe.config
+K:\13IT1 2026-2029\results2dclass\results2dclass\bin\Debug\results2dclass.exe
+K:\13IT1 2026-2029\results2dclass\results2dclass\bin\Debug\results2dclass.pdb
+K:\13IT1 2026-2029\results2dclass\results2dclass\obj\Debug\results2dclass.csproj.AssemblyReference.cache
+K:\13IT1 2026-2029\results2dclass\results2dclass\obj\Debug\results2dclass.Form1.resources
+K:\13IT1 2026-2029\results2dclass\results2dclass\obj\Debug\results2dclass.Properties.Resources.resources
+K:\13IT1 2026-2029\results2dclass\results2dclass\obj\Debug\results2dclass.csproj.GenerateResource.cache
+K:\13IT1 2026-2029\results2dclass\results2dclass\obj\Debug\results2dclass.csproj.CoreCompileInputs.cache
+K:\13IT1 2026-2029\results2dclass\results2dclass\obj\Debug\results2dclass.exe
+K:\13IT1 2026-2029\results2dclass\results2dclass\obj\Debug\results2dclass.pdb

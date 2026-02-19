@@ -1,28 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace timetable
-{
-    internal class Program
-    {
+namespace timetable {
+    internal static class Program {
         /// <summary>
-        /// Display all times tables from one to twelve.
+        /// The main entry point for the application.
         /// </summary>
-        /// <param name="args"></param>
-        static void Main(string[] args)
-        {
-            // loop that counting from one to twelve
-            for (int i = 1; i < 13; i++)
-            {
-                // create a second loop for multiplier, one to twelve
-                for (int j = 1; j < 13; j++)
-                {
-                    Console.WriteLine($"{i} x {j} = {i * j}");
-                }
-            }
+        [STAThread]
+        static void Main() {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
         }
     }
 }
