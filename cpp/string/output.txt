@@ -1,0 +1,3 @@
+What is your full name? Noah Macneil
+What is your age? 18
+Your age + length of name is: 30

@@ -1,0 +1,5 @@
+Enter the name of person #1: John Bacon
+Enter the age of person #1: 37
+Enter the name of person #2: David Jenkins
+Enter the age of person #2: 44
+David Jenkins (age 44) is older than John Bacon (age 37).
