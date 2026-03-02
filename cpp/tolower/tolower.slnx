@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="tolower/tolower.vcxproj" Id="b011d701-d02b-4340-8e0e-b45d99caf9eb" />
+</Solution>
