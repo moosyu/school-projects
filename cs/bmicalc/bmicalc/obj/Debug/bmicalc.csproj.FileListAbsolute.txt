@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\bmicalc\bmicalc\bin\Debug\bmicalc.exe.config
-K:\12IT1 2007\AS12789_Programming\bmicalc\bmicalc\bin\Debug\bmicalc.exe
-K:\12IT1 2007\AS12789_Programming\bmicalc\bmicalc\bin\Debug\bmicalc.pdb
-K:\12IT1 2007\AS12789_Programming\bmicalc\bmicalc\obj\Debug\bmicalc.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\bmicalc\bmicalc\obj\Debug\bmicalc.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\bmicalc\bmicalc\obj\Debug\bmicalc.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\bmicalc\bmicalc\obj\Debug\bmicalc.exe
-K:\12IT1 2007\AS12789_Programming\bmicalc\bmicalc\obj\Debug\bmicalc.pdb

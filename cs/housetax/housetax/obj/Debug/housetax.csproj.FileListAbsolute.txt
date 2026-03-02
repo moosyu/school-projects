@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\housetax\housetax\bin\Debug\housetax.exe.config
-K:\12IT1 2007\AS12789_Programming\housetax\housetax\bin\Debug\housetax.exe
-K:\12IT1 2007\AS12789_Programming\housetax\housetax\bin\Debug\housetax.pdb
-K:\12IT1 2007\AS12789_Programming\housetax\housetax\obj\Debug\housetax.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\housetax\housetax\obj\Debug\housetax.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\housetax\housetax\obj\Debug\housetax.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\housetax\housetax\obj\Debug\housetax.exe
-K:\12IT1 2007\AS12789_Programming\housetax\housetax\obj\Debug\housetax.pdb

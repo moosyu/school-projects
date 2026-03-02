@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\addingnumbers\addingnumbers\bin\Debug\addingnumbers.exe.config
-K:\12IT1 2007\AS12789_Programming\addingnumbers\addingnumbers\bin\Debug\addingnumbers.exe
-K:\12IT1 2007\AS12789_Programming\addingnumbers\addingnumbers\bin\Debug\addingnumbers.pdb
-K:\12IT1 2007\AS12789_Programming\addingnumbers\addingnumbers\obj\Debug\addingnumbers.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\addingnumbers\addingnumbers\obj\Debug\addingnumbers.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\addingnumbers\addingnumbers\obj\Debug\addingnumbers.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\addingnumbers\addingnumbers\obj\Debug\addingnumbers.exe
-K:\12IT1 2007\AS12789_Programming\addingnumbers\addingnumbers\obj\Debug\addingnumbers.pdb

@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\linearalgebra\linearalgebra\bin\Debug\linearalgebra.exe.config
-K:\12IT1 2007\AS12789_Programming\linearalgebra\linearalgebra\bin\Debug\linearalgebra.exe
-K:\12IT1 2007\AS12789_Programming\linearalgebra\linearalgebra\bin\Debug\linearalgebra.pdb
-K:\12IT1 2007\AS12789_Programming\linearalgebra\linearalgebra\obj\Debug\linearalgebra.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\linearalgebra\linearalgebra\obj\Debug\linearalgebra.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\linearalgebra\linearalgebra\obj\Debug\linearalgebra.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\linearalgebra\linearalgebra\obj\Debug\linearalgebra.exe
-K:\12IT1 2007\AS12789_Programming\linearalgebra\linearalgebra\obj\Debug\linearalgebra.pdb

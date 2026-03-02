@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\rangechecker\rangechecker\bin\Debug\rangechecker.exe.config
-K:\12IT1 2007\AS12789_Programming\rangechecker\rangechecker\bin\Debug\rangechecker.exe
-K:\12IT1 2007\AS12789_Programming\rangechecker\rangechecker\bin\Debug\rangechecker.pdb
-K:\12IT1 2007\AS12789_Programming\rangechecker\rangechecker\obj\Debug\rangechecker.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\rangechecker\rangechecker\obj\Debug\rangechecker.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\rangechecker\rangechecker\obj\Debug\rangechecker.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\rangechecker\rangechecker\obj\Debug\rangechecker.exe
-K:\12IT1 2007\AS12789_Programming\rangechecker\rangechecker\obj\Debug\rangechecker.pdb

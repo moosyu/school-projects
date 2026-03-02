@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\oddoreven\oddoreven\bin\Debug\oddoreven.exe.config
-K:\12IT1 2007\AS12789_Programming\oddoreven\oddoreven\bin\Debug\oddoreven.exe
-K:\12IT1 2007\AS12789_Programming\oddoreven\oddoreven\bin\Debug\oddoreven.pdb
-K:\12IT1 2007\AS12789_Programming\oddoreven\oddoreven\obj\Debug\oddoreven.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\oddoreven\oddoreven\obj\Debug\oddoreven.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\oddoreven\oddoreven\obj\Debug\oddoreven.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\oddoreven\oddoreven\obj\Debug\oddoreven.exe
-K:\12IT1 2007\AS12789_Programming\oddoreven\oddoreven\obj\Debug\oddoreven.pdb

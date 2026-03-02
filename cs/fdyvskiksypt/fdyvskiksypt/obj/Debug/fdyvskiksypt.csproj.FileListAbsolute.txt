@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\fdyvskiksypt\fdyvskiksypt\bin\Debug\fdyvskiksypt.exe.config
-K:\12IT1 2007\AS12789_Programming\fdyvskiksypt\fdyvskiksypt\bin\Debug\fdyvskiksypt.exe
-K:\12IT1 2007\AS12789_Programming\fdyvskiksypt\fdyvskiksypt\bin\Debug\fdyvskiksypt.pdb
-K:\12IT1 2007\AS12789_Programming\fdyvskiksypt\fdyvskiksypt\obj\Debug\fdyvskiksypt.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\fdyvskiksypt\fdyvskiksypt\obj\Debug\fdyvskiksypt.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\fdyvskiksypt\fdyvskiksypt\obj\Debug\fdyvskiksypt.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\fdyvskiksypt\fdyvskiksypt\obj\Debug\fdyvskiksypt.exe
-K:\12IT1 2007\AS12789_Programming\fdyvskiksypt\fdyvskiksypt\obj\Debug\fdyvskiksypt.pdb

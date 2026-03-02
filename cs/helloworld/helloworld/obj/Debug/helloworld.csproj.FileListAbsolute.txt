@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\helloworld\helloworld\bin\Debug\helloworld.exe.config
-K:\12IT1 2007\AS12789_Programming\helloworld\helloworld\bin\Debug\helloworld.exe
-K:\12IT1 2007\AS12789_Programming\helloworld\helloworld\bin\Debug\helloworld.pdb
-K:\12IT1 2007\AS12789_Programming\helloworld\helloworld\obj\Debug\helloworld.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\helloworld\helloworld\obj\Debug\helloworld.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\helloworld\helloworld\obj\Debug\helloworld.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\helloworld\helloworld\obj\Debug\helloworld.exe
-K:\12IT1 2007\AS12789_Programming\helloworld\helloworld\obj\Debug\helloworld.pdb

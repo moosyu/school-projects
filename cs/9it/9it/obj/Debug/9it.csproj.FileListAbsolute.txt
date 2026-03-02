@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\9it\9it\bin\Debug\9it.exe.config
-K:\12IT1 2007\AS12789_Programming\9it\9it\bin\Debug\9it.exe
-K:\12IT1 2007\AS12789_Programming\9it\9it\bin\Debug\9it.pdb
-K:\12IT1 2007\AS12789_Programming\9it\9it\obj\Debug\9it.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\9it\9it\obj\Debug\9it.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\9it\9it\obj\Debug\9it.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\9it\9it\obj\Debug\9it.exe
-K:\12IT1 2007\AS12789_Programming\9it\9it\obj\Debug\9it.pdb

@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\askingquestions\askingquestions\bin\Debug\askingquestions.exe.config
-K:\12IT1 2007\AS12789_Programming\askingquestions\askingquestions\bin\Debug\askingquestions.exe
-K:\12IT1 2007\AS12789_Programming\askingquestions\askingquestions\bin\Debug\askingquestions.pdb
-K:\12IT1 2007\AS12789_Programming\askingquestions\askingquestions\obj\Debug\askingquestions.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\askingquestions\askingquestions\obj\Debug\askingquestions.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\askingquestions\askingquestions\obj\Debug\askingquestions.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\askingquestions\askingquestions\obj\Debug\askingquestions.exe
-K:\12IT1 2007\AS12789_Programming\askingquestions\askingquestions\obj\Debug\askingquestions.pdb

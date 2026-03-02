@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\canteen\canteen\bin\Debug\canteen.exe.config
-K:\12IT1 2007\AS12789_Programming\canteen\canteen\bin\Debug\canteen.exe
-K:\12IT1 2007\AS12789_Programming\canteen\canteen\bin\Debug\canteen.pdb
-K:\12IT1 2007\AS12789_Programming\canteen\canteen\obj\Debug\canteen.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\canteen\canteen\obj\Debug\canteen.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\canteen\canteen\obj\Debug\canteen.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\canteen\canteen\obj\Debug\canteen.exe
-K:\12IT1 2007\AS12789_Programming\canteen\canteen\obj\Debug\canteen.pdb

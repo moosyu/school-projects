@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\swimmingbands\swimmingbands\bin\Debug\swimmingbands.exe.config
-K:\12IT1 2007\AS12789_Programming\swimmingbands\swimmingbands\bin\Debug\swimmingbands.exe
-K:\12IT1 2007\AS12789_Programming\swimmingbands\swimmingbands\bin\Debug\swimmingbands.pdb
-K:\12IT1 2007\AS12789_Programming\swimmingbands\swimmingbands\obj\Debug\swimmingbands.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\swimmingbands\swimmingbands\obj\Debug\swimmingbands.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\swimmingbands\swimmingbands\obj\Debug\swimmingbands.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\swimmingbands\swimmingbands\obj\Debug\swimmingbands.exe
-K:\12IT1 2007\AS12789_Programming\swimmingbands\swimmingbands\obj\Debug\swimmingbands.pdb

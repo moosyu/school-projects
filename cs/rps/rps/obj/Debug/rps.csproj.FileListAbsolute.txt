@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\rps\rps\bin\Debug\rps.exe.config
-K:\12IT1 2007\AS12789_Programming\rps\rps\bin\Debug\rps.exe
-K:\12IT1 2007\AS12789_Programming\rps\rps\bin\Debug\rps.pdb
-K:\12IT1 2007\AS12789_Programming\rps\rps\obj\Debug\rps.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\rps\rps\obj\Debug\rps.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\rps\rps\obj\Debug\rps.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\rps\rps\obj\Debug\rps.exe
-K:\12IT1 2007\AS12789_Programming\rps\rps\obj\Debug\rps.pdb

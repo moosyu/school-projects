@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\quadraticformula\quadraticformula\bin\Debug\quadraticformula.exe.config
-K:\12IT1 2007\AS12789_Programming\quadraticformula\quadraticformula\bin\Debug\quadraticformula.exe
-K:\12IT1 2007\AS12789_Programming\quadraticformula\quadraticformula\bin\Debug\quadraticformula.pdb
-K:\12IT1 2007\AS12789_Programming\quadraticformula\quadraticformula\obj\Debug\quadraticformula.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\quadraticformula\quadraticformula\obj\Debug\quadraticformula.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\quadraticformula\quadraticformula\obj\Debug\quadraticformula.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\quadraticformula\quadraticformula\obj\Debug\quadraticformula.exe
-K:\12IT1 2007\AS12789_Programming\quadraticformula\quadraticformula\obj\Debug\quadraticformula.pdb

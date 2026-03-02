@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\fj\fj\bin\Debug\fj.exe.config
-K:\12IT1 2007\AS12789_Programming\fj\fj\bin\Debug\fj.exe
-K:\12IT1 2007\AS12789_Programming\fj\fj\bin\Debug\fj.pdb
-K:\12IT1 2007\AS12789_Programming\fj\fj\obj\Debug\fj.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\fj\fj\obj\Debug\fj.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\fj\fj\obj\Debug\fj.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\fj\fj\obj\Debug\fj.exe
-K:\12IT1 2007\AS12789_Programming\fj\fj\obj\Debug\fj.pdb

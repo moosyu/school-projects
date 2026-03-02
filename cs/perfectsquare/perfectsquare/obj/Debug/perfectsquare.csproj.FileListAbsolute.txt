@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\perfectsquare\perfectsquare\bin\Debug\perfectsquare.exe.config
-K:\12IT1 2007\AS12789_Programming\perfectsquare\perfectsquare\bin\Debug\perfectsquare.exe
-K:\12IT1 2007\AS12789_Programming\perfectsquare\perfectsquare\bin\Debug\perfectsquare.pdb
-K:\12IT1 2007\AS12789_Programming\perfectsquare\perfectsquare\obj\Debug\perfectsquare.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\perfectsquare\perfectsquare\obj\Debug\perfectsquare.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\perfectsquare\perfectsquare\obj\Debug\perfectsquare.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\perfectsquare\perfectsquare\obj\Debug\perfectsquare.exe
-K:\12IT1 2007\AS12789_Programming\perfectsquare\perfectsquare\obj\Debug\perfectsquare.pdb

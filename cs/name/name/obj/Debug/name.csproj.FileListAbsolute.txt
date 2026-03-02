@@ -1,8 +1,0 @@
-K:\12IT1 2007\AS12789_Programming\name\name\bin\Debug\name.exe.config
-K:\12IT1 2007\AS12789_Programming\name\name\bin\Debug\name.exe
-K:\12IT1 2007\AS12789_Programming\name\name\bin\Debug\name.pdb
-K:\12IT1 2007\AS12789_Programming\name\name\obj\Debug\name.csproj.AssemblyReference.cache
-K:\12IT1 2007\AS12789_Programming\name\name\obj\Debug\name.csproj.SuggestedBindingRedirects.cache
-K:\12IT1 2007\AS12789_Programming\name\name\obj\Debug\name.csproj.CoreCompileInputs.cache
-K:\12IT1 2007\AS12789_Programming\name\name\obj\Debug\name.exe
-K:\12IT1 2007\AS12789_Programming\name\name\obj\Debug\name.pdb
