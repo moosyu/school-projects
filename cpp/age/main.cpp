@@ -16,7 +16,7 @@ int main() {
     Person people[2];
 
     for (int i = 0; i < 2; i++) {
-        const int indexAdded = i + 1;
+        const int indexAdded {i + 1};
         std::cout << "Enter the name of person #" << indexAdded << ": ";
         std::getline(std::cin >> std::ws, people[i].name);
         std::cout << "Enter the age of person #" << indexAdded << ": ";

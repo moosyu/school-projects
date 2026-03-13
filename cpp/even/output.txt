@@ -1,0 +1,6 @@
+./cpp/even/main.exe
+Enter an integer: 5
+5 is odd.
+./cpp/even/main.exe
+Enter an integer: 6
+6 is even.
